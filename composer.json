@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*",
+        "neos/nodetypes": "*"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "kirchecom/sitegenesis",
+    "autoload": {
+        "psr-4": {
+            "KircheCom\\SiteGenesis\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "KircheCom.SiteGenesis"
+        }
+    }
+}
