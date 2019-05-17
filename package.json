@@ -1,0 +1,32 @@
+{
+  "name": "@kirchecom/site-genesis",
+  "version": "1.0.0",
+  "description": "Neos site package for kirche.com, version Genesis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirchecom/site-genesis.git"
+  },
+  "license": "EUPL-1.2",
+  "main": "App/index.js",
+  "scripts": {
+    "build:dev": "webpack --mode=development",
+    "build:production": "cross-env NODE_ENV=production webpack --mode=production",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "bootstrap": "^4.3.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^3.0.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}

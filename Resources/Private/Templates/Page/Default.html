@@ -1,13 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 {namespace neos=Neos\Neos\ViewHelpers}
 {namespace fusion=Neos\Fusion\ViewHelpers}
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<f:section name="stylesheets">
-		<!-- Put your stylesheet inclusions here, they will be included in your website by Fusion -->
+		<link rel="stylesheet" href="{f:uri.resource(path: 'Styles/index.css', package: 'KircheCom.SiteGenesis')}">
 	</f:section>
 	<f:section name="headScripts">
-		<!-- Put your scripts inclusions for the head here, they will be included in your website by Fusion -->
 	</f:section>
 </head>
 <body>
@@ -29,7 +30,7 @@
 	</div>
 </f:section>
 <f:section name="bodyScripts">
-	<!-- Put your scripts inclusions for the end of the body here, they will be included in your website by Fusion -->
+	<script src="{f:uri.resource(path: 'JavaScript/app.js', package: 'KircheCom.SiteGenesis')}"></script>
 </f:section>
 </body>
 </html>
