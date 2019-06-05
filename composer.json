@@ -1,5 +1,5 @@
 {
-    "description": "",
+    "description": "Neos site package for kirche.com, version Genesis",
     "type": "neos-site",
     "require": {
         "neos/neos": "*",

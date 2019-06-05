@@ -1,11 +1,11 @@
 'KircheCom.SiteGenesis:Page':
-  superTypes:
-    'Neos.Neos:Document': true
-  ui:
-    icon: 'icon-file'
-    label: 'Kirche.com Page'
-  childNodes:
-    main:
-      type: 'Neos.Neos:ContentCollection'
-    footer:
-      type: 'Neos.Neos:ContentCollection'
+    superTypes:
+        'Neos.Neos:Document': true
+    ui:
+        icon: 'icon-file'
+        label: 'Kirche.com Page'
+    childNodes:
+        main:
+            type: 'Neos.Neos:ContentCollection'
+        footer:
+            type: 'Neos.Neos:ContentCollection'

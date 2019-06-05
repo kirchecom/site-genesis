@@ -3,35 +3,35 @@
 {namespace fusion=Neos\Fusion\ViewHelpers}
 <html>
 <head>
-	<meta charset="utf-8">
-	<f:section name="meta">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	</f:section>
-	<f:section name="stylesheets">
-		<link rel="stylesheet" href="{f:uri.resource(path: 'Styles/index.css', package: 'KircheCom.SiteGenesis')}">
-	</f:section>
-	<f:section name="headScripts">
-	</f:section>
+    <meta charset="utf-8">
+    <f:section name="meta">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </f:section>
+    <f:section name="stylesheets">
+        <link rel="stylesheet" href="{f:uri.resource(path: 'Styles/index.css', package: 'KircheCom.SiteGenesis')}">
+    </f:section>
+    <f:section name="headScripts">
+    </f:section>
 </head>
 <body>
 <f:section name="body">
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<a class="navbar-brand" href="/">kirche.com</a>
-			{parts.menu -> f:format.raw()}
-		</div>
-	</nav>
-	<div class="container">
-		{content.main -> f:format.raw()}
-	</div>
-	<footer>
-		<div class="container">
-			{content.footer -> f:format.raw()}
-		</div>
-	</footer>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <a class="navbar-brand" href="/">kirche.com</a>
+            {parts.menu -> f:format.raw()}
+        </div>
+    </nav>
+    <div class="container">
+        {content.main -> f:format.raw()}
+    </div>
+    <footer>
+        <div class="container">
+            {content.footer -> f:format.raw()}
+        </div>
+    </footer>
 </f:section>
 <f:section name="bodyScripts">
-	<script src="{f:uri.resource(path: 'JavaScript/app.js', package: 'KircheCom.SiteGenesis')}"></script>
+    <script src="{f:uri.resource(path: 'JavaScript/app.js', package: 'KircheCom.SiteGenesis')}"></script>
 </f:section>
 </body>
 </html>
