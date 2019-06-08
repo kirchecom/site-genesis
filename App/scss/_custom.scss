@@ -1,0 +1,25 @@
+main {
+    margin: 2rem 0;
+}
+
+.navbar-dark {
+    .navbar-nav {
+        a {
+            color: $white;
+            display: block;
+            padding: .5rem 1rem;
+            font-size: 120%;
+            text-decoration: none;
+
+            &:hover {
+                background-color: theme-color-level(dark, -1);
+            }
+        }
+
+        .active {
+            a {
+                background-color: theme-color-level(dark, -2);
+            }
+        }
+    }
+}

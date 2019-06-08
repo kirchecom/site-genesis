@@ -24,8 +24,15 @@ prototype(KircheCom.SiteGenesis:DefaultPage) < prototype(Neos.Neos:Page) {
         templatePath = 'resource://KircheCom.SiteGenesis/Private/Templates/Page/Default.html'
         sectionName = 'body'
         parts {
+            logo = Neos.Fusion:Template {
+                templatePath = 'resource://KircheCom.SiteGenesis/Private/Templates/logo.svg'
+            }
+
             menu = Neos.Neos:Menu {
-                attributes.class = 'nav navbar-nav pull-right'
+                attributes.class = 'navbar-nav mr-auto'
+                normal.attributes.class = 'nav-item'
+                current.attributes.class = 'nav-item active'
+                active.attributes.class = 'nav-item active'
             }
         }
 

@@ -1,2 +1,11 @@
-@import "custom";
+// Definition of brand colors
+@import "colors";
+
+// Bootstrap theming
+@import "theming";
+
+// Import Bootstrap
 @import "~bootstrap/scss/bootstrap";
+
+// Custom elements and modifications
+@import "custom";

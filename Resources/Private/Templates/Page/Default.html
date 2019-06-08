@@ -15,16 +15,25 @@
 </head>
 <body>
 <f:section name="body">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="/">kirche.com</a>
-            {parts.menu -> f:format.raw()}
+            <a class="navbar-brand" href="/">
+                {parts.logo -> f:format.raw()}
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#theNavbar" aria-controls="theNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="theNavbar">
+                {parts.menu -> f:format.raw()}
+            </div>
         </div>
     </nav>
-    <div class="container">
-        {content.main -> f:format.raw()}
-    </div>
-    <footer>
+    <main role="main">
+        <div class="container">
+            {content.main -> f:format.raw()}
+        </div>
+    </main>
+    <footer class="text-muted">
         <div class="container">
             {content.footer -> f:format.raw()}
         </div>
