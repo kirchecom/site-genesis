@@ -27,19 +27,19 @@
 </head>
 <body>
 <f:section name="body">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="/">
+    <header class="container">
+        <nav class="navbar navbar-expand-md navbar-light bg-white border shadow-sm mt-2 p-0">
+            <a class="navbar-brand bg-dark mr-0 px-3 py-2" href="/">
                 {parts.logo -> f:format.raw()}
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#theNavbar" aria-controls="theNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#theNavbar" aria-controls="theNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="theNavbar">
                 {parts.menu -> f:format.raw()}
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <main role="main">
         <div class="container">
             {content.main -> f:format.raw()}

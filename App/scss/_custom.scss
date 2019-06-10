@@ -8,7 +8,6 @@ main {
             color: $white;
             display: block;
             padding: .5rem 1rem;
-            font-size: 120%;
             text-decoration: none;
 
             &:hover {
@@ -19,6 +18,28 @@ main {
         .active {
             a {
                 background-color: theme-color-level(dark, -2);
+            }
+        }
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        a {
+            color: $gray-900;
+            display: block;
+            padding: .875rem 1rem;
+            text-decoration: none;
+
+            &:hover {
+                color: $gray-700;
+            }
+        }
+
+        .active {
+            a {
+                background-color: $dark;
+                color: $white;
             }
         }
     }
