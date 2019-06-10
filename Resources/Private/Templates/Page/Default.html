@@ -40,13 +40,11 @@
             </div>
         </nav>
     </header>
-    <main role="main">
-        <div class="container">
-            {content.main -> f:format.raw()}
-        </div>
+    <main role="main" class="container">
+        {content.main -> f:format.raw()}
     </main>
-    <footer class="text-muted">
-        <div class="container">
+    <footer class="container">
+        <div class="text-muted border-top pt-4 my-md-5 pt-md-5">
             {content.footer -> f:format.raw()}
         </div>
     </footer>
