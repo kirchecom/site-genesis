@@ -3,9 +3,13 @@
         'Neos.Neos:Document': true
     ui:
         icon: 'icon-file'
-        label: 'Kirche.com Page'
+        label: 'i18n'
     childNodes:
         main:
             type: 'Neos.Neos:ContentCollection'
         footer:
             type: 'Neos.Neos:ContentCollection'
+
+# Disable the default page node type
+'Neos.NodeTypes:Page':
+    ui: ~

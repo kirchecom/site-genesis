@@ -28,11 +28,11 @@
 <body>
 <f:section name="body">
     <header class="container">
-        <nav class="navbar navbar-expand-md navbar-light bg-white border shadow-sm mt-2 p-0">
+        <nav class="navbar navbar-expand-md navbar-light bg-white border shadow-sm mt-2 mt-lg-3 p-0">
             <a class="navbar-brand bg-dark mr-0 px-3 py-2" href="/">
                 {parts.logo -> f:format.raw()}
             </a>
-            <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#theNavbar" aria-controls="theNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#theNavbar" aria-controls="theNavbar" aria-expanded="false" aria-label="{parts.toggleNavigationLabel}">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="theNavbar">
@@ -40,7 +40,7 @@
             </div>
         </nav>
     </header>
-    <main role="main" class="container my-5">
+    <main role="main" class="container my-4 my-lg-5">
         {content.main -> f:format.raw()}
     </main>
     <footer class="container">

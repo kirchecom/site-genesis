@@ -34,6 +34,8 @@ prototype(KircheCom.SiteGenesis:DefaultPage) < prototype(Neos.Neos:Page) {
                 current.attributes.class = 'nav-item active'
                 active.attributes.class = 'nav-item active'
             }
+
+            toggleNavigationLabel = ${Translation.translate('KircheCom.SiteGenesis:NodeTypes.Page:page.toggleNavigation')}
         }
 
         javascripts.site = Neos.Fusion:Template {

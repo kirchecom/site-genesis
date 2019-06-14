@@ -1,0 +1,28 @@
+Neos:
+    ContentRepository:
+        contentDimensions:
+            'language':
+                label: 'Language'
+                icon: 'icon-language'
+                default: 'de'
+                defaultPreset: 'de'
+                presets:
+                    'en':
+                        label: 'English'
+                        values: ['en']
+                        uriSegment: 'en'
+                    'de':
+                        label: 'Deutsch'
+                        values: ['de']
+                        uriSegment: 'de'
+    Flow:
+        mvc:
+            routes:
+                'Neos.Neos':
+                    variables:
+                        defaultUriSuffix: ''
+    Neos:
+        userInterface:
+            translation:
+                autoInclude:
+                    'KircheCom.SiteGenesis': ['NodeTypes/*']
