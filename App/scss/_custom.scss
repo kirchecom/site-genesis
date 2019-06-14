@@ -1,6 +1,3 @@
-main {
-    margin: 2rem 0;
-}
 
 .navbar-dark {
     .navbar-nav {
@@ -41,6 +38,12 @@ main {
                 background-color: $dark;
                 color: $white;
             }
+        }
+    }
+
+    a.navbar-brand.bg-dark {
+        &:hover, &:focus {
+            background-color: $dark !important;
         }
     }
 }
