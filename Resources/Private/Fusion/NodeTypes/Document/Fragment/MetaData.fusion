@@ -1,0 +1,16 @@
+prototype(KircheCom.SiteGenesis:Document.Fragment.MetaData) < prototype(Neos.Fusion:Component) {
+    renderer = afx`
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <KircheCom.SiteGenesis:Helper.LinkTag rel="apple-touch-icon" sizes="180x180" path="resource://KircheCom.SiteGenesis/Public/Icons/apple-touch-icon.png" />
+        <KircheCom.SiteGenesis:Helper.LinkTag rel="icon" type="image/png" sizes="32x32" path="resource://KircheCom.SiteGenesis/Public/Icons/favicon-32x32.png" />
+        <KircheCom.SiteGenesis:Helper.LinkTag rel="icon" type="image/png" sizes="16x16" path="resource://KircheCom.SiteGenesis/Public/Icons/favicon-16x16.png" />
+        <KircheCom.SiteGenesis:Helper.LinkTag rel="manifest" path="resource://KircheCom.SiteGenesis/Public/Icons/site.webmanifest" />
+        <KircheCom.SiteGenesis:Helper.LinkTag rel="mask-icon" path="resource://KircheCom.SiteGenesis/Public/Icons/safari-pinned-tab.svg" color="#00163d" />
+        <KircheCom.SiteGenesis:Helper.LinkTag rel="shortcut icon" path="resource://KircheCom.SiteGenesis/Public/Icons/favicon.ico" />
+        <meta name="apple-mobile-web-app-title" content="kirche.com" />
+        <meta name="application-name" content="kirche.com" />
+        <meta name="msapplication-TileColor" content="#2b5797" />
+        <KircheCom.SiteGenesis:Helper.ResourceUriMetaTag name="msapplication-config" path="resource://KircheCom.SiteGenesis/Public/Icons/browserconfig.xml" />
+        <meta name="theme-color" content="#00163d" />
+    `
+}

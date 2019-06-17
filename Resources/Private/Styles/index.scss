@@ -1,0 +1,8 @@
+// General theme (colors and Bootstrap modifications)
+@import "Theme";
+
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// SCSS for each node type
+@import "NodeTypes/Document/Fragment/Menu/Main";

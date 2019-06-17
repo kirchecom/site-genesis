@@ -1,26 +1,4 @@
-
-.navbar-dark {
-    .navbar-nav {
-        a {
-            color: $white;
-            display: block;
-            padding: .5rem 1rem;
-            text-decoration: none;
-
-            &:hover {
-                background-color: theme-color-level(dark, -1);
-            }
-        }
-
-        .active {
-            a {
-                background-color: theme-color-level(dark, -2);
-            }
-        }
-    }
-}
-
-.navbar-light {
+.kirchecom-sitegenesis-document-fragment-menu-main {
     .navbar-nav {
         a {
             color: $gray-900;

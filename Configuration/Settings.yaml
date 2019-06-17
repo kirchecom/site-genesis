@@ -2,7 +2,7 @@ Neos:
     ContentRepository:
         contentDimensions:
             'language':
-                label: 'Language'
+                label: 'KircheCom.SiteGenesis:General:contentDimensions.language'
                 icon: 'icon-language'
                 default: 'de'
                 defaultPreset: 'de'
@@ -25,4 +25,4 @@ Neos:
         userInterface:
             translation:
                 autoInclude:
-                    'KircheCom.SiteGenesis': ['NodeTypes/*']
+                    'KircheCom.SiteGenesis': ['General', 'NodeTypes/*']

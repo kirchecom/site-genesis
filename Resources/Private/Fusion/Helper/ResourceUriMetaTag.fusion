@@ -1,0 +1,12 @@
+prototype(KircheCom.SiteGenesis:Helper.ResourceUriMetaTag) < prototype(Neos.Fusion:Component) {
+    name = null
+    path = null
+
+    renderer = Neos.Fusion:Tag {
+        tagName = 'meta'
+        attributes.name = ${props.name}
+        attributes.content = Neos.Fusion:ResourceUri {
+            path = ${props.path}
+        }
+    }
+}

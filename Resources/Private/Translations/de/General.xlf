@@ -2,11 +2,8 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file original="" product-name="KircheCom.SiteGenesis" source-language="de" datatype="plaintext">
         <body>
-            <trans-unit id="ui.label" xml:space="preserve">
-                <source>kirche.com Seite</source>
-            </trans-unit>
-            <trans-unit id="page.toggleNavigation" xml:space="preserve">
-                <source>Navigation umschalten</source>
+            <trans-unit id="contentDimensions.language" xml:space="preserve">
+                <source>Sprache</source>
             </trans-unit>
         </body>
     </file>

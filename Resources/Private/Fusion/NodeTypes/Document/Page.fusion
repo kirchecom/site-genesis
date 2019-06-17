@@ -1,0 +1,21 @@
+prototype(KircheCom.SiteGenesis:Document.Page) < prototype(Neos.Fusion:Component) {
+    mainMenu = KircheCom.SiteGenesis:Document.Fragment.Menu.Main
+    mainContent = KircheCom.SiteGenesis:Document.Fragment.Content.Main
+    footerContent = KircheCom.SiteGenesis:Document.Fragment.Content.Footer
+
+    renderer = KircheCom.SiteGenesis:Document.Base {
+        body = afx`
+            <header class="container">
+                {props.mainMenu}
+            </header>
+            <main role="main" class="container my-4 my-lg-5">
+                {props.mainContent}
+            </main>
+            <footer class="container">
+                <div class="text-muted border-top pt-4 my-md-5 pt-md-5">
+                    {props.footerContent}
+                </div>
+            </footer>
+        `
+    }
+}

@@ -2,7 +2,7 @@ const resolve = require('path').resolve;
 
 module.exports = (env = {}) => {
     return {
-        entry: ['./App/index.js', './App/scss/index.scss'],
+        entry: ['./Resources/Private/JavaScript/index.js', './Resources/Private/Styles/index.scss'],
         output: {
             path: resolve('./'),
             filename: './Resources/Public/JavaScript/app.js',

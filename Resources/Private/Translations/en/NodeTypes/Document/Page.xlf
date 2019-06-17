@@ -5,9 +5,6 @@
             <trans-unit id="ui.label" xml:space="preserve">
                 <source>kirche.com Page</source>
             </trans-unit>
-            <trans-unit id="page.toggleNavigation" xml:space="preserve">
-                <source>Toggle navigation</source>
-            </trans-unit>
         </body>
     </file>
 </xliff>

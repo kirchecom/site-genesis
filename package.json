@@ -7,7 +7,7 @@
         "url": "https://github.com/kirchecom/site-genesis.git"
     },
     "license": "EUPL-1.2",
-    "main": "App/index.js",
+    "main": "Resources/Private/JavaScript/index.js",
     "scripts": {
         "build:dev": "webpack --mode=development",
         "build:production": "cross-env NODE_ENV=production webpack --mode=production",

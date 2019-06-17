@@ -1,0 +1,18 @@
+prototype(KircheCom.SiteGenesis:Helper.LinkTag) < prototype(Neos.Fusion:Component) {
+    rel = null
+    type = null
+    sizes = null
+    color = null
+    path = null
+
+    renderer = Neos.Fusion:Tag {
+        tagName = 'link'
+        attributes.rel = ${props.rel}
+        attributes.type = ${props.type}
+        attributes.sizes = ${props.sizes}
+        attributes.color = ${props.color}
+        attributes.href = Neos.Fusion:ResourceUri {
+            path = ${props.path}
+        }
+    }
+}
