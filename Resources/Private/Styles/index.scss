@@ -1,8 +1,17 @@
 // General theme (colors and Bootstrap modifications)
 @import "Theme";
 
-// Import Bootstrap
-@import "~bootstrap/scss/bootstrap";
+// Required Bootstrap parts
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
 
-// SCSS for each node type
+// General Bootstrap parts
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/print";
+
+// SCSS for each node type (might include additional Bootstrap parts)
 @import "NodeTypes/Component/Molecule/MainMenu";

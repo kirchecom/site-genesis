@@ -24,5 +24,7 @@ prototype(KircheCom.SiteGenesis:Component.Template.Base) < prototype(Neos.Fusion
 
         bodyScripts = KircheCom.SiteGenesis:Component.Molecule.Meta.JavaScripts
         bodyScripts.@position = 'after body'
+
+        lastVisitedNodeScript = null
     }
 }
