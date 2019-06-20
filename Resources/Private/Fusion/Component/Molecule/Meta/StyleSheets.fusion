@@ -1,0 +1,5 @@
+prototype(KircheCom.SiteGenesis:Component.Molecule.Meta.StyleSheets) < prototype(Neos.Fusion:Component) {
+    renderer = afx`
+        <KircheCom.SiteGenesis:Component.Atom.Meta.LinkTag rel="stylesheet" path="resource://KircheCom.SiteGenesis/Public/Styles/index.css" />
+    `
+}

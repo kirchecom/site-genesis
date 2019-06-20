@@ -1,0 +1,27 @@
+.kirchecom-sitegenesis-component-molecule-mainmenu {
+    .navbar-nav {
+        a {
+            color: $gray-900;
+            display: block;
+            padding: .875rem 1rem;
+            text-decoration: none;
+
+            &:hover {
+                color: $gray-700;
+            }
+        }
+
+        .active {
+            a {
+                background-color: $dark;
+                color: $white;
+            }
+        }
+    }
+
+    a.navbar-brand.bg-dark {
+        &:hover, &:focus {
+            background-color: $dark !important;
+        }
+    }
+}

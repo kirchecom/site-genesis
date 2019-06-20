@@ -1,0 +1,28 @@
+prototype(KircheCom.SiteGenesis:Component.Template.Base) < prototype(Neos.Fusion:Component) {
+    header = null
+    main = null
+    footer = null
+    bodyClass = null
+
+    renderer = Neos.Neos:Page {
+        head {
+            stylesheets {
+                site = KircheCom.SiteGenesis:Component.Molecule.Meta.StyleSheets
+            }
+            metadata = KircheCom.SiteGenesis:Component.Molecule.Meta.MetaData
+        }
+
+        bodyTag.attributes.class = ${props.bodyClass}
+        body = Neos.Fusion:Component {
+            renderer = afx`
+                {props.header}
+                {props.main}
+                {props.footer}
+            `
+            @apply.props = ${props}
+        }
+
+        bodyScripts = KircheCom.SiteGenesis:Component.Molecule.Meta.JavaScripts
+        bodyScripts.@position = 'after body'
+    }
+}

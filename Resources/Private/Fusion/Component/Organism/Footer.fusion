@@ -1,0 +1,11 @@
+prototype(KircheCom.SiteGenesis:Component.Organism.Footer) < prototype(Neos.Fusion:Component) {
+    footerContent = null
+
+    renderer = afx`
+        <footer class="container">
+            <div class="text-muted border-top pt-4 my-md-5 pt-md-5">
+                {props.footerContent}
+            </div>
+        </footer>
+    `
+}

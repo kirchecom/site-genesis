@@ -1,0 +1,7 @@
+prototype(KircheCom.SiteGenesis:Content.Organism.Header) < prototype(Neos.Fusion:Component) {
+    mainMenu = KircheCom.SiteGenesis:Content.Molecule.MainMenu
+
+    renderer = KircheCom.SiteGenesis:Component.Organism.Header {
+        @apply.props = ${props}
+    }
+}

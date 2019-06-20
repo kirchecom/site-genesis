@@ -1,0 +1,27 @@
+prototype(KircheCom.SiteGenesis:Component.Molecule.MainMenu) < prototype(Neos.Fusion:Component) {
+    root = null
+    menuItems = null
+    toggleNavigationLabel = null
+    logo = null
+
+    renderer = afx`
+        <nav class="kirchecom-sitegenesis-component-molecule-mainmenu navbar navbar-expand-md navbar-light bg-white border shadow-sm mt-2 mt-lg-3 p-0">
+            <Neos.Neos:NodeLink node={props.root} attributes.class="navbar-brand bg-dark mr-0 px-3 py-2">
+                {props.logo}
+            </Neos.Neos:NodeLink>
+            <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#theNavbar"
+                aria-controls="theNavbar" aria-expanded="false" aria-label={props.toggleNavigationLabel}>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="theNavbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <Neos.Fusion:Loop items={props.menuItems}>
+                        <li class={item.state == 'current' ? 'active nav-item' : 'nav-item'}>
+                            <Neos.Neos:NodeLink node={item.node}>{item.label}</Neos.Neos:NodeLink>
+                        </li>
+                    </Neos.Fusion:Loop>
+                </ul>
+            </div>
+        </nav>
+    `
+}

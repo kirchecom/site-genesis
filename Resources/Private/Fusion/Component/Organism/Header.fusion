@@ -1,0 +1,9 @@
+prototype(KircheCom.SiteGenesis:Component.Organism.Header) < prototype(Neos.Fusion:Component) {
+    mainMenu = null
+
+    renderer = afx`
+        <header class="container">
+            {props.mainMenu}
+        </header>
+    `
+}

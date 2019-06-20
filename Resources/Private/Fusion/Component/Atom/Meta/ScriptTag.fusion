@@ -1,0 +1,10 @@
+prototype(KircheCom.SiteGenesis:Component.Atom.Meta.ScriptTag) < prototype(Neos.Fusion:Component) {
+    path = null
+
+    renderer = Neos.Fusion:Tag {
+        tagName = 'script'
+        attributes.src = Neos.Fusion:ResourceUri {
+            path = ${props.path}
+        }
+    }
+}

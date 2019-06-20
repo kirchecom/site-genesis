@@ -1,5 +1,0 @@
-prototype(KircheCom.SiteGenesis:Document.Fragment.JavaScripts) < prototype(Neos.Fusion:Component) {
-    renderer = afx`
-        <KircheCom.SiteGenesis:Helper.ScriptTag path="resource://KircheCom.SiteGenesis/Public/JavaScript/app.js" />
-    `
-}

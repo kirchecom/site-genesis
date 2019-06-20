@@ -1,0 +1,14 @@
+prototype(KircheCom.SiteGenesis:Content.Molecule.MainMenu) < prototype(Neos.Fusion:Component) {
+    root = ${site}
+    menuItems = Neos.Neos:MenuItems
+    toggleNavigationLabel = ${Translation.translate('KircheCom.SiteGenesis:NodeTypes.Content.Molecule.MainMenu:toggleNavigation')}
+    logo = Neos.Fusion:Template {
+        templatePath = 'resource://KircheCom.SiteGenesis/Private/Templates/logo.svg'
+        width = 36
+        height = 36
+    }
+
+    renderer = KircheCom.SiteGenesis:Component.Molecule.MainMenu {
+        @apply.props = ${props}
+    }
+}
