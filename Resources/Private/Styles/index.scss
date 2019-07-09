@@ -14,4 +14,7 @@
 @import "~bootstrap/scss/print";
 
 // SCSS for each node type (might include additional Bootstrap parts)
+@import "NodeTypes/Component/Molecule/BibleVerse";
 @import "NodeTypes/Component/Molecule/MainMenu";
+@import "NodeTypes/Component/Molecule/StainedGlass";
+@import "NodeTypes/Component/Organism/StainedGlassWindow";

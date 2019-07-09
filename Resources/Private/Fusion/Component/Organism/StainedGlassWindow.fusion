@@ -1,0 +1,9 @@
+prototype(KircheCom.SiteGenesis:Component.Organism.StainedGlassWindow) < prototype(Neos.Fusion:Component) {
+    parts = null
+
+    renderer = afx`
+        <div class="stained-glass-window card-columns">
+            {props.parts}
+        </div>
+    `
+}

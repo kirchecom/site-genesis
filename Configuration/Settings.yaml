@@ -22,6 +22,10 @@ Neos:
                     variables:
                         defaultUriSuffix: ''
     Neos:
+        nodeTypes:
+            groups:
+                stainedGlass:
+                    label: 'KircheCom.SiteGenesis:General:groups.stainedGlass'
         userInterface:
             translation:
                 autoInclude:

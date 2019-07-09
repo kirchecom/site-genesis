@@ -1,35 +1,37 @@
-// Background
-$kirche-color-01: #00163d;
+$theme-colors: (
+    // Background
+    "kirche-color-01": #00163d,
 
-// Top left window clockwise
-$kirche-color-11: #f14b2b;
-$kirche-color-12: #ff8933;
-$kirche-color-13: #f0da0f;
+    // Top left window clockwise
+    "kirche-color-11": #f14b2b,
+    "kirche-color-12": #ff8933,
+    "kirche-color-13": #f0da0f,
 
-// Top right window clockwise
-$kirche-color-21: #f43868;
-$kirche-color-22: #b54efa;
-$kirche-color-23: #f949e8;
+    // Top right window clockwise
+    "kirche-color-21": #f43868,
+    "kirche-color-22": #b54efa,
+    "kirche-color-23": #f949e8,
 
-// Bottom right window clockwise
-$kirche-color-31: #5163fe;
-$kirche-color-32: #2cbcff;
-$kirche-color-33: #19e0a6;
-$kirche-color-34: #33fae4;
+    // Bottom right window clockwise
+    "kirche-color-31": #5163fe,
+    "kirche-color-32": #2cbcff,
+    "kirche-color-33": #19e0a6,
+    "kirche-color-34": #33fae4,
 
-// Bottom left window clockwise
-$kirche-color-41: #ff0;
-$kirche-color-42: #13cf6b;
-$kirche-color-43: #29c230;
-$kirche-color-44: #94e43f;
+    // Bottom left window clockwise
+    "kirche-color-41": #ff0,
+    "kirche-color-42": #13cf6b,
+    "kirche-color-43": #29c230,
+    "kirche-color-44": #94e43f
+);
 
-$primary: $kirche-color-01;
-$secondary: $kirche-color-42;
-$success: $kirche-color-43;
-$info: $kirche-color-32;
-$warning: $kirche-color-13;
-$danger: $kirche-color-21;
-$dark: $kirche-color-01;
+$primary: map-get($theme-colors, "kirche-color-01");
+$secondary: map-get($theme-colors, "kirche-color-42");
+$success: map-get($theme-colors, "kirche-color-43");
+$info: map-get($theme-colors, "kirche-color-32");
+$warning: map-get($theme-colors, "kirche-color-13");
+$danger: map-get($theme-colors, "kirche-color-21");
+$dark: map-get($theme-colors, "kirche-color-01");
 
 $enable-rounded: false;
 $link-decoration: underline;

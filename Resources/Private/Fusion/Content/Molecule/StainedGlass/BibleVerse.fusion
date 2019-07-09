@@ -1,0 +1,43 @@
+prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.BibleVerse) < prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass) {
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    book = ${Translation.translate('KircheCom.SiteGenesis:NodeTypes.Content.Molecule.StainedGlass.BibleVerse:properties.book.selectBoxEditor.values.' + q(node).property('book'))}
+    chapter = ${q(node).property('chapter')}
+    verses = ${q(node).property('verses')}
+    version = ${Translation.translate('KircheCom.SiteGenesis:NodeTypes.Content.Molecule.StainedGlass.BibleVerse:properties.version.selectBoxEditor.values.' + q(node).property('version'))}
+
+    link = Neos.Fusion:Case {
+        bibleserver {
+            condition = ${String.pregMatch(q(node).property('version'), '/^BIBLESERVER-[0-9A-Z]+$/')}
+            renderer = ${
+                'https://www.bibleserver.com/text/' +
+                String.pregMatch(q(node).property('version'), '/^BIBLESERVER-([0-9A-Z]+)$/')[1] +
+                '/' +
+                Translation.translate('KircheCom.SiteGenesis:NodeTypes.Content.Molecule.StainedGlass.BibleVerse:properties.book.selectBoxEditor.values.' + q(node).property('book')) +
+                q(node).property('chapter') +
+                ',' +
+                q(node).property('verses')
+            }
+        }
+        youversion {
+            condition = ${String.pregMatch(q(node).property('version'), '/^YOUVERSION-[0-9]+$/')}
+            renderer = ${
+                'https://www.bible.com/bible/' +
+                String.pregMatch(q(node).property('version'), '/^YOUVERSION-([0-9]+)$/')[1] +
+                '/' +
+                q(node).property('book') +
+                '.' +
+                q(node).property('chapter')
+            }
+        }
+    }
+    link.@if.condition = ${q(node).property('showLink')}
+
+    renderer = KircheCom.SiteGenesis:Component.Molecule.StainedGlass {
+        body = KircheCom.SiteGenesis:Component.Molecule.BibleVerse {
+            @apply.props = ${props}
+        }
+    }
+}

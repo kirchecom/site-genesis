@@ -1,0 +1,15 @@
+'KircheCom.SiteGenesis:Content.Organism.StainedGlassWindow':
+    superTypes:
+        'Neos.Neos:Content': true
+    ui:
+        label: 'i18n'
+        group: 'structure'
+        icon: 'icon-th'
+        position: 1
+    childNodes:
+        parts:
+            type: 'Neos.Neos:ContentCollection'
+            constraints:
+                nodeTypes:
+                    '*': false
+                    'KircheCom.SiteGenesis:Content.Molecule.StainedGlass': true

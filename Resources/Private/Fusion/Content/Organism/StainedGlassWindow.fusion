@@ -1,0 +1,9 @@
+prototype(KircheCom.SiteGenesis:Content.Organism.StainedGlassWindow) < prototype(Neos.Fusion:Component) {
+    parts = Neos.Neos:ContentCollection {
+        nodePath = 'parts'
+    }
+
+    renderer = KircheCom.SiteGenesis:Component.Organism.StainedGlassWindow {
+        @apply.props = ${props}
+    }
+}

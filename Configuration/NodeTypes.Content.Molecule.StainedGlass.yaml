@@ -1,0 +1,58 @@
+'KircheCom.SiteGenesis:Content.Molecule.StainedGlass':
+    superTypes:
+        'Neos.Neos:Content': true
+    abstract: true
+    ui:
+        inspector:
+            groups:
+                stainedGlass:
+                    label: 'i18n'
+                    icon: 'icon-th'
+                    position: 9
+    properties:
+        color:
+            type: 'string'
+            defaultValue: 'transparent'
+            validation:
+                'Neos.Neos/Validation/RegularExpressionValidator':
+                    regularExpression: '/^[0-9a-z-]+$/'
+            ui:
+                label: 'i18n'
+                reloadIfChanged: true
+                inspector:
+                    group: 'stainedGlass'
+                    editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+                    editorOptions:
+                        values:
+                            'transparent':
+                                label: 'i18n'
+                            'kirche-color-01':
+                                label: 'i18n'
+                            'kirche-color-11':
+                                label: 'i18n'
+                            'kirche-color-12':
+                                label: 'i18n'
+                            'kirche-color-13':
+                                label: 'i18n'
+                            'kirche-color-21':
+                                label: 'i18n'
+                            'kirche-color-22':
+                                label: 'i18n'
+                            'kirche-color-23':
+                                label: 'i18n'
+                            'kirche-color-31':
+                                label: 'i18n'
+                            'kirche-color-32':
+                                label: 'i18n'
+                            'kirche-color-33':
+                                label: 'i18n'
+                            'kirche-color-34':
+                                label: 'i18n'
+                            'kirche-color-41':
+                                label: 'i18n'
+                            'kirche-color-42':
+                                label: 'i18n'
+                            'kirche-color-43':
+                                label: 'i18n'
+                            'kirche-color-44':
+                                label: 'i18n'

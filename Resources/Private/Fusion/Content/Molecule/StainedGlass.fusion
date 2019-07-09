@@ -1,0 +1,3 @@
+prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass) < prototype(Neos.Neos:ContentComponent) {
+    color = ${q(node).property('color')}
+}

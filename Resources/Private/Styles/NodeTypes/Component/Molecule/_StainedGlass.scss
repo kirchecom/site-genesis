@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/card";
+
+@each $color, $value in $theme-colors {
+    .stained-glass.card.bg-#{$color} {
+        color: color-yiq($value);
+
+        a {
+            color: color-yiq($value) !important;
+        }
+    }
+}

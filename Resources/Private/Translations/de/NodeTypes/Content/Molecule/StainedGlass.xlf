@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="KircheCom.SiteGenesis" source-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="groups.stainedGlass" xml:space="preserve">
+                <source>Buntglas</source>
+            </trans-unit>
+            <trans-unit id="properties.color" xml:space="preserve">
+                <source>Farbe</source>
+            </trans-unit>
+
+            <trans-unit id="properties.color.selectBoxEditor.values.transparent" xml:space="preserve">
+                <source>strahlend weiß</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-01" xml:space="preserve">
+                <source>dunkelblau</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-11" xml:space="preserve">
+                <source>rot</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-12" xml:space="preserve">
+                <source>orange</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-13" xml:space="preserve">
+                <source>gelb</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-21" xml:space="preserve">
+                <source>pink</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-22" xml:space="preserve">
+                <source>lila</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-23" xml:space="preserve">
+                <source>knallpink</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-31" xml:space="preserve">
+                <source>blau</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-32" xml:space="preserve">
+                <source>hellblau</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-33" xml:space="preserve">
+                <source>grünblau</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-34" xml:space="preserve">
+                <source>türkis</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-41" xml:space="preserve">
+                <source>knallgelb</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-42" xml:space="preserve">
+                <source>blaugrün</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-43" xml:space="preserve">
+                <source>grün</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-44" xml:space="preserve">
+                <source>hellgrün</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

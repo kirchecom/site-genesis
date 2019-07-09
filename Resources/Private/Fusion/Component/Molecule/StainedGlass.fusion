@@ -1,0 +1,16 @@
+prototype(KircheCom.SiteGenesis:Component.Molecule.StainedGlass) < prototype(Neos.Fusion:Component) {
+    color = null
+    medium = null
+    body = null
+
+    colorClass = ${props.color ? 'bg-' + props.color : ''}
+
+    renderer = afx`
+        <div class={"stained-glass card shadow-sm mb-3 " + props.colorClass}>
+            {props.medium}
+            <div class="card-body">
+                {props.body}
+            </div>
+        </div>
+    `
+}

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="KircheCom.SiteGenesis" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="ui.label" xml:space="preserve">
+                <source>Stained Glass for Bible Verse</source>
+            </trans-unit>
+            <trans-unit id="groups.bible" xml:space="preserve">
+                <source>Bible Verse</source>
+            </trans-unit>
+            <trans-unit id="properties.book" xml:space="preserve">
+                <source>Book</source>
+            </trans-unit>
+            <trans-unit id="properties.chapter" xml:space="preserve">
+                <source>Chapter</source>
+            </trans-unit>
+            <trans-unit id="properties.verses" xml:space="preserve">
+                <source>Verse(s)</source>
+            </trans-unit>
+            <trans-unit id="properties.version" xml:space="preserve">
+                <source>Version</source>
+            </trans-unit>
+            <trans-unit id="properties.version.ui.help.message" xml:space="preserve">
+                <source>
+Many modern translations of the Bible are subject to copyright and may therefore not be copied and published without the authorization
+of the copyright holder.
+This list only contains translations that are subject to public domain rights.
+Please use a translation out of this list to avoid copyright violations.
+                </source>
+            </trans-unit>
+            <trans-unit id="properties.showLink" xml:space="preserve">
+                <source>Show Link to Online Bible</source>
+            </trans-unit>
+
+            <trans-unit id="properties.book.selectBoxEditor.values.GEN" xml:space="preserve">
+                <source>Genesis</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.EXO" xml:space="preserve">
+                <source>Exodus</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.LEV" xml:space="preserve">
+                <source>Leviticus</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.NUM" xml:space="preserve">
+                <source>Numbers</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.DEU" xml:space="preserve">
+                <source>Deuteronomy</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.JOS" xml:space="preserve">
+                <source>Joshua</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.JDG" xml:space="preserve">
+                <source>Judges</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.RUT" xml:space="preserve">
+                <source>Ruth</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.1SA" xml:space="preserve">
+                <source>1 Samuel</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.2SA" xml:space="preserve">
+                <source>2 Samuel</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.1KI" xml:space="preserve">
+                <source>1 Kings</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.2KI" xml:space="preserve">
+                <source>2 Kings</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.1CH" xml:space="preserve">
+                <source>1 Chronicles</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.2CH" xml:space="preserve">
+                <source>2 Chronicles</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.EZR" xml:space="preserve">
+                <source>Ezra</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.NEH" xml:space="preserve">
+                <source>Nehemiah</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.EST" xml:space="preserve">
+                <source>Esther</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.JOB" xml:space="preserve">
+                <source>Job</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.PSA" xml:space="preserve">
+                <source>Psalms</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.PRO" xml:space="preserve">
+                <source>Proverbs</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.ECC" xml:space="preserve">
+                <source>Ecclesiastes</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.SNG" xml:space="preserve">
+                <source>Song of Solomon</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.ISA" xml:space="preserve">
+                <source>Isaiah</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.JER" xml:space="preserve">
+                <source>Jeremiah</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.LAM" xml:space="preserve">
+                <source>Lamentations</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.EZK" xml:space="preserve">
+                <source>Ezekiel</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.DAN" xml:space="preserve">
+                <source>Daniel</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.HOS" xml:space="preserve">
+                <source>Hosea</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.JOL" xml:space="preserve">
+                <source>Joel</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.AMO" xml:space="preserve">
+                <source>Amos</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.OBA" xml:space="preserve">
+                <source>Obadiah</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.JON" xml:space="preserve">
+                <source>Jonah</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.MIC" xml:space="preserve">
+                <source>Micah</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.NAM" xml:space="preserve">
+                <source>Nahum</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.HAB" xml:space="preserve">
+                <source>Habakkuk</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.ZEP" xml:space="preserve">
+                <source>Zephaniah</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.HAG" xml:space="preserve">
+                <source>Haggai</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.ZEC" xml:space="preserve">
+                <source>Zechariah</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.MAL" xml:space="preserve">
+                <source>Maleachi</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.MAT" xml:space="preserve">
+                <source>Matthew</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.MRK" xml:space="preserve">
+                <source>Mark</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.LUK" xml:space="preserve">
+                <source>Luke</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.JHN" xml:space="preserve">
+                <source>John</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.ACT" xml:space="preserve">
+                <source>Acts</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.ROM" xml:space="preserve">
+                <source>Romans</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.1CO" xml:space="preserve">
+                <source>1 Corinthians</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.2CO" xml:space="preserve">
+                <source>2 Corinthians</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.GAL" xml:space="preserve">
+                <source>Galatians</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.EPH" xml:space="preserve">
+                <source>Ephesians</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.PHP" xml:space="preserve">
+                <source>Philippians</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.COL" xml:space="preserve">
+                <source>Colossians</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.1TH" xml:space="preserve">
+                <source>1 Thessalonians</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.2TH" xml:space="preserve">
+                <source>2 Thessalonians</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.1TI" xml:space="preserve">
+                <source>1 Timothy</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.2TI" xml:space="preserve">
+                <source>2 Timothy</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.TIT" xml:space="preserve">
+                <source>Titus</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.PHM" xml:space="preserve">
+                <source>Philemon</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.HEB" xml:space="preserve">
+                <source>Hebrews</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.JAS" xml:space="preserve">
+                <source>James</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.1PE" xml:space="preserve">
+                <source>1 Peter</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.2PE" xml:space="preserve">
+                <source>2 Peter</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.1JN" xml:space="preserve">
+                <source>1 John</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.2JN" xml:space="preserve">
+                <source>2 John</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.3JN" xml:space="preserve">
+                <source>3 John</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.JUD" xml:space="preserve">
+                <source>Jude</source>
+            </trans-unit>
+            <trans-unit id="properties.book.selectBoxEditor.values.REV" xml:space="preserve">
+                <source>Revelation</source>
+            </trans-unit>
+
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-51" xml:space="preserve">
+                <source>Lutherbibel 1912</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-57" xml:space="preserve">
+                <source>Elberfelder 1905</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-58" xml:space="preserve">
+                <source>Elberfelder 1871</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-2170" xml:space="preserve">
+                <source>Darby Unrevidierte Elberfelder</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-65" xml:space="preserve">
+                <source>Albrecht NT und Psalmen</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-2200" xml:space="preserve">
+                <source>Textbibel von Kautzsch und Weizsäcker</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.BIBLESERVER-MENG" xml:space="preserve">
+                <source>Menge-Bibel</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-12" xml:space="preserve">
+                <source>American Standard Version</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-42" xml:space="preserve">
+                <source>Catholic Public Domain Version</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-2163" xml:space="preserve">
+                <source>Geneva Bible</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-206" xml:space="preserve">
+                <source>World English Bible</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-1204" xml:space="preserve">
+                <source>World English Bible British Edition</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-1209" xml:space="preserve">
+                <source>World Messianic Bible</source>
+            </trans-unit>
+            <trans-unit id="properties.version.selectBoxEditor.values.YOUVERSION-1207" xml:space="preserve">
+                <source>World Messianic Bible British Edition</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

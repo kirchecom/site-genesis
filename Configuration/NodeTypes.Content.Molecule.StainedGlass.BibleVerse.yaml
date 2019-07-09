@@ -1,0 +1,258 @@
+'KircheCom.SiteGenesis:Content.Molecule.StainedGlass.BibleVerse':
+    superTypes:
+        'KircheCom.SiteGenesis:Content.Molecule.StainedGlass': true
+    ui:
+        label: 'i18n'
+        group: 'stainedGlass'
+        icon: 'icon-bible'
+        position: 1
+        inspector:
+            groups:
+                bible:
+                    label: 'i18n'
+                    icon: 'icon-bible'
+                    position: 1
+    properties:
+        text:
+            type: 'string'
+            defaultValue: 'Suche Frieden und jage ihm nach!'
+            ui:
+                inlineEditable: true
+        book:
+            type: 'string'
+            defaultValue: 'PSA'
+            validation:
+                'Neos.Neos/Validation/NotEmptyValidator': []
+                'Neos.Neos/Validation/RegularExpressionValidator':
+                    regularExpression: '/^[0-9A-Z]+$/'
+            ui:
+                label: 'i18n'
+                reloadIfChanged: true
+                inspector:
+                    group: 'bible'
+                    editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+                    editorOptions:
+                        values:
+                            'GEN':
+                                label: 'i18n'
+                            'EXO':
+                                label: 'i18n'
+                            'LEV':
+                                label: 'i18n'
+                            'NUM':
+                                label: 'i18n'
+                            'DEU':
+                                label: 'i18n'
+                            'JOS':
+                                label: 'i18n'
+                            'JDG':
+                                label: 'i18n'
+                            'RUT':
+                                label: 'i18n'
+                            '1SA':
+                                label: 'i18n'
+                            '2SA':
+                                label: 'i18n'
+                            '1KI':
+                                label: 'i18n'
+                            '2KI':
+                                label: 'i18n'
+                            '1CH':
+                                label: 'i18n'
+                            '2CH':
+                                label: 'i18n'
+                            'EZR':
+                                label: 'i18n'
+                            'NEH':
+                                label: 'i18n'
+                            'EST':
+                                label: 'i18n'
+                            'JOB':
+                                label: 'i18n'
+                            'PSA':
+                                label: 'i18n'
+                            'PRO':
+                                label: 'i18n'
+                            'ECC':
+                                label: 'i18n'
+                            'SNG':
+                                label: 'i18n'
+                            'ISA':
+                                label: 'i18n'
+                            'JER':
+                                label: 'i18n'
+                            'LAM':
+                                label: 'i18n'
+                            'EZK':
+                                label: 'i18n'
+                            'DAN':
+                                label: 'i18n'
+                            'HOS':
+                                label: 'i18n'
+                            'JOL':
+                                label: 'i18n'
+                            'AMO':
+                                label: 'i18n'
+                            'OBA':
+                                label: 'i18n'
+                            'JON':
+                                label: 'i18n'
+                            'MIC':
+                                label: 'i18n'
+                            'NAM':
+                                label: 'i18n'
+                            'HAB':
+                                label: 'i18n'
+                            'ZEP':
+                                label: 'i18n'
+                            'HAG':
+                                label: 'i18n'
+                            'ZEC':
+                                label: 'i18n'
+                            'MAL':
+                                label: 'i18n'
+                            'MAT':
+                                label: 'i18n'
+                            'MRK':
+                                label: 'i18n'
+                            'LUK':
+                                label: 'i18n'
+                            'JHN':
+                                label: 'i18n'
+                            'ACT':
+                                label: 'i18n'
+                            'ROM':
+                                label: 'i18n'
+                            '1CO':
+                                label: 'i18n'
+                            '2CO':
+                                label: 'i18n'
+                            'GAL':
+                                label: 'i18n'
+                            'EPH':
+                                label: 'i18n'
+                            'PHP':
+                                label: 'i18n'
+                            'COL':
+                                label: 'i18n'
+                            '1TH':
+                                label: 'i18n'
+                            '2TH':
+                                label: 'i18n'
+                            '1TI':
+                                label: 'i18n'
+                            '2TI':
+                                label: 'i18n'
+                            'TIT':
+                                label: 'i18n'
+                            'PHM':
+                                label: 'i18n'
+                            'HEB':
+                                label: 'i18n'
+                            'JAS':
+                                label: 'i18n'
+                            '1PE':
+                                label: 'i18n'
+                            '2PE':
+                                label: 'i18n'
+                            '1JN':
+                                label: 'i18n'
+                            '2JN':
+                                label: 'i18n'
+                            '3JN':
+                                label: 'i18n'
+                            'JUD':
+                                label: 'i18n'
+                            'REV':
+                                label: 'i18n'
+        chapter:
+            type: 'integer'
+            defaultValue: 34
+            validation:
+                'Neos.Neos/Validation/NotEmptyValidator': []
+                'Neos.Neos/Validation/IntegerValidator': []
+            ui:
+                label: 'i18n'
+                reloadIfChanged: true
+                inspector:
+                    group: 'bible'
+        verses:
+            type: 'string'
+            defaultValue: '14b'
+            validation:
+                'Neos.Neos/Validation/NotEmptyValidator': []
+                'Neos.Neos/Validation/RegularExpressionValidator':
+                    regularExpression: '/^[0-9ab,-]+$/'
+            ui:
+                label: 'i18n'
+                reloadIfChanged: true
+                inspector:
+                    group: 'bible'
+        version:
+            type: 'string'
+            defaultValue: 'YOUVERSION-51'
+            validation:
+                'Neos.Neos/Validation/NotEmptyValidator': []
+                'Neos.Neos/Validation/RegularExpressionValidator':
+                    regularExpression: '/^[0-9A-Z-]+$/'
+            ui:
+                label: 'i18n'
+                help:
+                    message: 'i18n'
+                reloadIfChanged: true
+                inspector:
+                    group: 'bible'
+                    editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+                    editorOptions:
+                        values:
+                            'YOUVERSION-51':
+                                label: 'i18n'
+                                group: 'Deutsch'
+                            'YOUVERSION-57':
+                                label: 'i18n'
+                                group: 'Deutsch'
+                            'YOUVERSION-58':
+                                label: 'i18n'
+                                group: 'Deutsch'
+                            'YOUVERSION-2170':
+                                label: 'i18n'
+                                group: 'Deutsch'
+                            'YOUVERSION-65':
+                                label: 'i18n'
+                                group: 'Deutsch'
+                            'YOUVERSION-2200':
+                                label: 'i18n'
+                                group: 'Deutsch'
+                            'BIBLESERVER-MENG':
+                                label: 'i18n'
+                                group: 'Deutsch'
+                            'YOUVERSION-12':
+                                label: 'i18n'
+                                group: 'English'
+                            'YOUVERSION-42':
+                                label: 'i18n'
+                                group: 'English'
+                            'YOUVERSION-2163':
+                                label: 'i18n'
+                                group: 'English'
+                            'YOUVERSION-206':
+                                label: 'i18n'
+                                group: 'English'
+                            'YOUVERSION-1204':
+                                label: 'i18n'
+                                group: 'English'
+                            'YOUVERSION-1209':
+                                label: 'i18n'
+                                group: 'English'
+                            'YOUVERSION-1207':
+                                label: 'i18n'
+                                group: 'English'
+        showLink:
+            type: boolean
+            defaultValue: true
+            ui:
+                label: 'i18n'
+                reloadIfChanged: true
+                inspector:
+                    group: 'bible'
+                    editor: 'Neos.Neos/Inspector/Editors/BooleanEditor'
