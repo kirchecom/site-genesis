@@ -12,49 +12,49 @@
             <trans-unit id="properties.color.selectBoxEditor.values.transparent" xml:space="preserve">
                 <source>bright white</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-01" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-01" xml:space="preserve">
                 <source>dark blue</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-11" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-11" xml:space="preserve">
                 <source>red</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-12" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-12" xml:space="preserve">
                 <source>orange</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-13" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-13" xml:space="preserve">
                 <source>yellow</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-21" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-21" xml:space="preserve">
                 <source>pink</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-22" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-22" xml:space="preserve">
                 <source>purple</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-23" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-23" xml:space="preserve">
                 <source>bright pink</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-31" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-31" xml:space="preserve">
                 <source>blue</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-32" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-32" xml:space="preserve">
                 <source>light blue</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-33" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-33" xml:space="preserve">
                 <source>greenish blue</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-34" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-34" xml:space="preserve">
                 <source>cyan</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-41" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-41" xml:space="preserve">
                 <source>bright yellow</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-42" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-42" xml:space="preserve">
                 <source>bluish green</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-43" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-43" xml:space="preserve">
                 <source>green</source>
             </trans-unit>
-            <trans-unit id="properties.color.selectBoxEditor.values.kirche-color-44" xml:space="preserve">
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-44" xml:space="preserve">
                 <source>light green</source>
             </trans-unit>
         </body>
