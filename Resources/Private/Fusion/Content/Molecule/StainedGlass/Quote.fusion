@@ -1,0 +1,13 @@
+prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Quote) < prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass) {
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    author = ${q(node).property('author')}
+
+    renderer = KircheCom.SiteGenesis:Component.Molecule.StainedGlass {
+        body = KircheCom.SiteGenesis:Component.Molecule.Quote {
+            @apply.props = ${props}
+        }
+    }
+}

@@ -1,0 +1,9 @@
+prototype(KircheCom.SiteGenesis:Component.Molecule.Quote) < prototype(Neos.Fusion:Component) {
+    text = null
+    author = null
+
+    renderer = KircheCom.SiteGenesis:Component.Atom.Blockquote {
+        text = ${props.text}
+        reference = ${props.author}
+    }
+}

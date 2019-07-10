@@ -6,19 +6,12 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.BibleVerse) < prototype(Neos.
     version = null
     link = null
 
-    renderer = afx`
-        <blockquote class="bible-verse blockquote">
-            <p>{props.text}</p>
-            <footer class="blockquote-footer">
-                <cite @if.condition={props.link}>
-                    <a href={props.link} target="_blank" rel="noopener">
-                        {props.book} {props.chapter},{props.verses} <small @if.condition={props.version}>({props.version})</small>
-                    </a>
-                </cite>
-                <cite @if.condition={!props.link}>
-                    {props.book} {props.chapter},{props.verses} <small @if.condition={props.version}>({props.version})</small>
-                </cite>
-            </footer>
-        </blockquote>
-    `
+    renderer = KircheCom.SiteGenesis:Component.Atom.Blockquote {
+        text = ${props.text}
+        link = ${props.link}
+
+        reference = afx`
+            {props.book} {props.chapter},{props.verses} <small @if.condition={props.version}>({props.version})</small>
+        `
+    }
 }

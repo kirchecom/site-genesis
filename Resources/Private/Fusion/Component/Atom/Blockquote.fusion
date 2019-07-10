@@ -1,0 +1,21 @@
+prototype(KircheCom.SiteGenesis:Component.Atom.Blockquote) < prototype(Neos.Fusion:Component) {
+    text = null
+    reference = null
+    link = null
+
+    renderer = afx`
+        <blockquote class="kirchecom-blockquote blockquote">
+            <p>{props.text}</p>
+            <footer @if.condition={props.reference} class="blockquote-footer">
+                <cite @if.condition={props.link}>
+                    <a href={props.link} target="_blank" rel="noopener">
+                        {props.reference}
+                    </a>
+                </cite>
+                <cite @if.condition={!props.link}>
+                    {props.reference}
+                </cite>
+            </footer>
+        </blockquote>
+    `
+}
