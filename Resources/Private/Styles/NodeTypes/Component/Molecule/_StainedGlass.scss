@@ -1,7 +1,7 @@
 @import "~bootstrap/scss/card";
 
 @each $color, $value in $theme-colors {
-    .stained-glass.card.bg-#{$color} {
+    .kirchecom-stainedglass.card.bg-#{$color} {
         color: color-yiq($value);
 
         a {

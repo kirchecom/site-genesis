@@ -2,7 +2,7 @@ prototype(KircheCom.SiteGenesis:Component.Organism.StainedGlassWindow) < prototy
     parts = null
 
     renderer = afx`
-        <div class="stained-glass-window card-columns">
+        <div class="kirchecom-stainedglasswindow card-columns">
             {props.parts}
         </div>
     `

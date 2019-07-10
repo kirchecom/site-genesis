@@ -5,7 +5,7 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.MainMenu) < prototype(Neos.Fu
     logo = null
 
     renderer = afx`
-        <nav class="main-menu navbar navbar-expand-md navbar-light bg-white border shadow-sm mt-2 mt-lg-3 p-0">
+        <nav class="kirchecom-mainmenu navbar navbar-expand-md navbar-light bg-white border shadow-sm mt-2 mt-lg-3 p-0">
             <Neos.Neos:NodeLink node={props.root} attributes.class="navbar-brand bg-dark mr-0 px-3 py-2">
                 {props.logo}
             </Neos.Neos:NodeLink>
