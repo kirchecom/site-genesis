@@ -5,7 +5,7 @@
         label: 'i18n'
         group: 'stainedGlass'
         icon: 'icon-quote-right'
-        position: 2
+        position: 3
         inspector:
             groups:
                 quote:
