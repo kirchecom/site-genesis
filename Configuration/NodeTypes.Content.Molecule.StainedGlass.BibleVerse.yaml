@@ -5,7 +5,7 @@
         label: 'i18n'
         group: 'stainedGlass'
         icon: 'icon-bible'
-        position: 2
+        position: 3
         inspector:
             groups:
                 bible:
@@ -18,6 +18,41 @@
             defaultValue: 'Suche Frieden und jage ihm nach!'
             ui:
                 inlineEditable: true
+                inline:
+                    editorOptions:
+                        autoparagraph: true
+                        placeholder: 'i18n'
+                        linking:
+                            anchor: true
+                            title: true
+                            relNofollow: true
+                            targetBlank: true
+                        formatting:
+                            strong: true
+                            em: true
+                            u: true
+                            sub: true
+                            sup: true
+                            del: true
+                            p: true
+                            h1: true
+                            h2: true
+                            h3: true
+                            h4: true
+                            h5: true
+                            h6: true
+                            pre: true
+                            underline: true
+                            strikethrough: true
+                            removeFormat: true
+                            left: true
+                            right: true
+                            center: true
+                            justify: true
+                            table: false
+                            ol: true
+                            ul: true
+                            a: true
         book:
             type: 'string'
             defaultValue: 'PSA'

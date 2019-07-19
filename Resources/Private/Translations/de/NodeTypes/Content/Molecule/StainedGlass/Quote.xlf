@@ -11,6 +11,9 @@
             <trans-unit id="properties.author" xml:space="preserve">
                 <source>Autor oder Quelle</source>
             </trans-unit>
+            <trans-unit id="properties.text.ui.inline.editorOptions.placeholder" xml:space="preserve">
+                <source>Tippe das Zitat hier ein.</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

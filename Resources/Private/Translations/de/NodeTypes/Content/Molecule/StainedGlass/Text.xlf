@@ -11,6 +11,9 @@
             <trans-unit id="properties.title" xml:space="preserve">
                 <source>Titel (optional)</source>
             </trans-unit>
+            <trans-unit id="properties.text.ui.inline.editorOptions.placeholder" xml:space="preserve">
+                <source>Tippe den Text hier ein.</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

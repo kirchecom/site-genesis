@@ -5,13 +5,13 @@
         label: 'i18n'
         group: 'stainedGlass'
         icon: 'icon-align-left'
-        position: 1
+        position: 2
         inspector:
             groups:
                 text:
                     label: 'i18n'
                     icon: 'icon-align-left'
-                    position: 1
+                    position: 5
     properties:
         text:
             type: 'string'
@@ -20,6 +20,7 @@
                 inline:
                     editorOptions:
                         autoparagraph: true
+                        placeholder: 'i18n'
                         linking:
                             anchor: true
                             title: true

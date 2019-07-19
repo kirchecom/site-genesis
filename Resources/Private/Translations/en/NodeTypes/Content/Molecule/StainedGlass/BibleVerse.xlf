@@ -31,6 +31,9 @@ Please use a translation out of this list to avoid copyright violations.
             <trans-unit id="properties.showLink" xml:space="preserve">
                 <source>Show Link to Online Bible</source>
             </trans-unit>
+            <trans-unit id="properties.text.ui.inline.editorOptions.placeholder" xml:space="preserve">
+                <source>Please enter the Bible verse here.</source>
+            </trans-unit>
 
             <trans-unit id="properties.book.selectBoxEditor.values.GEN" xml:space="preserve">
                 <source>Genesis</source>

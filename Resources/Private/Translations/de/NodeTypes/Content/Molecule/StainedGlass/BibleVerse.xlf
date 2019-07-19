@@ -31,6 +31,9 @@ Bitte verwende eine Übersetzung aus dieser Liste, um Urheberrechtsverletzungen 
             <trans-unit id="properties.showLink" xml:space="preserve">
                 <source>Link zu Online-Bibel anbieten</source>
             </trans-unit>
+            <trans-unit id="properties.text.ui.inline.editorOptions.placeholder" xml:space="preserve">
+                <source>Tippe den Bibelvers hier ein.</source>
+            </trans-unit>
 
             <trans-unit id="properties.book.selectBoxEditor.values.GEN" xml:space="preserve">
                 <source>1. Mose</source>
