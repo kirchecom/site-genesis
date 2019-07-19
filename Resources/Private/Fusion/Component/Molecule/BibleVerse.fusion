@@ -11,7 +11,7 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.BibleVerse) < prototype(Neos.
         link = ${props.link}
 
         reference = afx`
-            {props.book} {props.chapter},{props.verses} <small @if.condition={props.version}>({props.version})</small>
+            {props.book} {props.chapter},{props.verses} <small @if.has={props.version}>({props.version})</small>
         `
     }
 }

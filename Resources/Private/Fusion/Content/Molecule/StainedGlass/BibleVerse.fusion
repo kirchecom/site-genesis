@@ -33,7 +33,7 @@ prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.BibleVerse) < prot
             }
         }
     }
-    link.@if.condition = ${q(node).property('showLink')}
+    link.@if.has = ${q(node).property('showLink')}
 
     renderer = KircheCom.SiteGenesis:Component.Molecule.StainedGlass {
         body = KircheCom.SiteGenesis:Component.Molecule.BibleVerse {
