@@ -1,0 +1,5 @@
+.kirchecom-stainedglass {
+    .float-right + .card-body {
+        margin-top: map-get($spacers, 3);
+    }
+}

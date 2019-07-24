@@ -1,0 +1,19 @@
+prototype(KircheCom.SiteGenesis:Component.Atom.ResponsiveImage) < prototype(Neos.Fusion:Component) {
+    imageSource = null
+    srcset = null
+    sizes = null
+    alt = null
+    title = null
+    class = null
+
+    renderer = afx`
+        <Sitegeist.Kaleidoscope:Image
+            imageSource={props.imageSource}
+            srcset={props.srcset}
+            sizes={props.sizes}
+            alt={props.alt}
+            title={props.title}
+            class={props.class}
+        />
+    `
+}

@@ -3,7 +3,8 @@
     "type": "neos-site",
     "require": {
         "neos/neos": "*",
-        "neos/nodetypes": "*"
+        "neos/nodetypes": "*",
+        "sitegeist/kaleidoscope": "^3.2"
     },
     "suggest": {
         "neos/seo": "*"

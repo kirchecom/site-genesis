@@ -1,0 +1,23 @@
+prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Image) < prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Text) {
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    renderer = KircheCom.SiteGenesis:Component.Molecule.StainedGlass {
+        medium = KircheCom.SiteGenesis:Component.Molecule.StainedGlassImage {
+            imageSource = Sitegeist.Kaleidoscope:AssetImageSource {
+                asset = ${q(node).property('image')}
+            }
+            alt = ${q(node).property('image').caption}
+            title = ${q(node).property('image').title}
+            copyrightNotice = ${q(node).property('image').copyrightNotice}
+            copyrightNotice.@if.has = ${q(node).property('showCopyrightNotice')}
+        }
+
+        body = KircheCom.SiteGenesis:Component.Molecule.StainedGlassBody {
+            title = ${props.title}
+            text = ${props.text}
+        }
+        body.@if.has = ${q(node).property('showText')}
+    }
+}

@@ -1,0 +1,18 @@
+prototype(KircheCom.SiteGenesis:Component.Molecule.StainedGlassImage) < prototype(Neos.Fusion:Component) {
+    imageSource = null
+    alt = null
+    title = null
+    copyrightNotice = null
+
+    renderer = afx`
+        <KircheCom.SiteGenesis:Component.Atom.ResponsiveImage
+            imageSource={props.imageSource}
+            srcset="295w, 333w, 355w, 508w, 800w, 1000w, 1200w, 1600w"
+            sizes="(min-width: 1200px) 355px, (min-width: 992px) 295px, (min-width: 768px) 333px, (min-width: 576px) 508px, 100vw"
+            alt={props.alt}
+            title={props.title}
+            class="card-img-top"
+        />
+        <div @if.has={props.copyrightNotice} class="float-right small text-muted m-1 mr-2">{props.copyrightNotice}</div>
+    `
+}
