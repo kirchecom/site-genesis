@@ -7,5 +7,10 @@
         a {
             color: color-yiq($value) !important;
         }
+
+        .text-muted {
+            color: color-yiq($value) !important;
+            opacity: .5;
+        }
     }
 }
