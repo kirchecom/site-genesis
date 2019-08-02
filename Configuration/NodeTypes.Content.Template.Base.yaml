@@ -9,7 +9,3 @@
             type: 'Neos.Neos:ContentCollection'
         footer:
             type: 'Neos.Neos:ContentCollection'
-
-# Disable the default page node type
-'Neos.NodeTypes:Page':
-    ui: ~
