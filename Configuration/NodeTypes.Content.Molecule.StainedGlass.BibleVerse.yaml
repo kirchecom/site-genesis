@@ -5,7 +5,7 @@
         label: 'i18n'
         group: 'stainedGlass'
         icon: 'icon-bible'
-        position: 3
+        position: 4
         inspector:
             groups:
                 bible:

@@ -1,0 +1,17 @@
+prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.YouTube) < prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Text) {
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    renderer = KircheCom.SiteGenesis:Component.Molecule.StainedGlass {
+        medium = Jonnitto.PrettyEmbedYoutube:Content.Youtube {
+            @apply.props = ${props}
+        }
+
+        body = KircheCom.SiteGenesis:Component.Molecule.StainedGlassBody {
+            title = ${props.title}
+            text = ${props.text}
+        }
+        body.@if.has = ${q(node).property('showText')}
+    }
+}

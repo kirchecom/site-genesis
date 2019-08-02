@@ -4,7 +4,8 @@
     "require": {
         "neos/neos": "*",
         "neos/nodetypes": "*",
-        "sitegeist/kaleidoscope": "^3.2"
+        "sitegeist/kaleidoscope": "^3.2",
+        "jonnitto/prettyembedyoutube": "^6.0"
     },
     "suggest": {
         "neos/seo": "*"

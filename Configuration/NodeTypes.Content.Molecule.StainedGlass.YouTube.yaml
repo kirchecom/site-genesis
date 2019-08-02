@@ -1,0 +1,26 @@
+'KircheCom.SiteGenesis:Content.Molecule.StainedGlass.YouTube':
+    superTypes:
+        'KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Text': true
+        'Jonnitto.PrettyEmbedYoutube:Content.Youtube': true
+    ui:
+        label: 'i18n'
+        group: 'stainedGlass'
+        icon: 'icon-youtube'
+        position: 1
+        inspector:
+            groups:
+                text:
+                    position: 'after image'
+                stainedGlass:
+                    position: 'after text'
+    properties:
+        showText:
+            type: boolean
+            defaultValue: false
+            ui:
+                label: 'i18n'
+                reloadPageIfChanged: true
+                inspector:
+                    group: 'text'
+                    position: -1
+                    editor: 'Neos.Neos/Inspector/Editors/BooleanEditor'

@@ -1,0 +1,3 @@
+# Only to be included as a stained glass type
+'Jonnitto.PrettyEmbedYoutube:Content.Youtube':
+    abstract: true
