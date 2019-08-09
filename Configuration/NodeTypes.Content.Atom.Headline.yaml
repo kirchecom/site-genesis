@@ -1,0 +1,44 @@
+'KircheCom.SiteGenesis:Content.Atom.Headline':
+    superTypes:
+        'Neos.Neos:Content': true
+    ui:
+        label: 'i18n'
+        icon: 'icon-header'
+        position: 100
+        inspector:
+            groups:
+                headline:
+                    label: 'i18n'
+                    icon: 'icon-header'
+                    position: 100
+    properties:
+        text:
+            type: 'string'
+            ui:
+                inlineEditable: true
+                inline:
+                    editorOptions:
+                        placeholder: 'i18n'
+                        formatting:
+                            removeFormat: true
+        level:
+            type: 'string'
+            defaultValue: 'h1'
+            validation:
+                'Neos.Neos/Validation/NotEmptyValidator': []
+                'Neos.Neos/Validation/RegularExpressionValidator':
+                    regularExpression: '/^h[0-6]$/'
+            ui:
+                label: 'i18n'
+                reloadIfChanged: true
+                inspector:
+                    group: 'headline'
+                    editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+                    editorOptions:
+                        values:
+                            'h1':
+                                label: 'i18n'
+                            'h2':
+                                label: 'i18n'
+                            'h3':
+                                label: 'i18n'

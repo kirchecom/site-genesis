@@ -1,0 +1,31 @@
+prototype(KircheCom.SiteGenesis:Component.Atom.Headline) < prototype(Neos.Fusion:Component) {
+    text = null
+    level = 'h1'
+
+    renderer = Neos.Fusion:Case {
+        h1 {
+            condition = ${props.level == 'h1'}
+            renderer = afx`<h1>{props.text}</h1>`
+        }
+        h2 {
+            condition = ${props.level == 'h2'}
+            renderer = afx`<h2>{props.text}</h2>`
+        }
+        h3 {
+            condition = ${props.level == 'h3'}
+            renderer = afx`<h3>{props.text}</h3>`
+        }
+        h4 {
+            condition = ${props.level == 'h4'}
+            renderer = afx`<h4>{props.text}</h4>`
+        }
+        h5 {
+            condition = ${props.level == 'h5'}
+            renderer = afx`<h5>{props.text}</h5>`
+        }
+        h6 {
+            condition = ${props.level == 'h6'}
+            renderer = afx`<h6>{props.text}</h6>`
+        }
+    }
+}

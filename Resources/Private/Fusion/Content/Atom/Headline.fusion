@@ -1,0 +1,10 @@
+prototype(KircheCom.SiteGenesis:Content.Atom.Headline) < prototype(Neos.Neos:ContentComponent) {
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+    level = ${q(node).property('level')}
+
+    renderer = KircheCom.SiteGenesis:Component.Atom.Headline {
+        @apply.props = ${props}
+    }
+}
