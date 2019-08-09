@@ -1,0 +1,15 @@
+prototype(KircheCom.SiteGenesis:Component.Organism.TwoColumns) < prototype(Neos.Fusion:Component) {
+    column1 = null
+    column2 = null
+
+    renderer = afx`
+        <div class="row">
+            <div class="col-md">
+                {props.column1}
+            </div>
+            <div class="col-md">
+                {props.column2}
+            </div>
+        </div>
+    `
+}

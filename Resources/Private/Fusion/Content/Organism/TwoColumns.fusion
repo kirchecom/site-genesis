@@ -1,0 +1,12 @@
+prototype(KircheCom.SiteGenesis:Content.Organism.TwoColumns) < prototype(Neos.Fusion:Component) {
+    column1 = Neos.Neos:ContentCollection {
+        nodePath = 'column1'
+    }
+    column2 = Neos.Neos:ContentCollection {
+        nodePath = 'column2'
+    }
+
+    renderer = KircheCom.SiteGenesis:Component.Organism.TwoColumns {
+        @apply.props = ${props}
+    }
+}
