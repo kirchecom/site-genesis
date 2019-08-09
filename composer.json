@@ -3,7 +3,6 @@
     "type": "neos-site",
     "require": {
         "neos/neos": "*",
-        "neos/nodetypes": "*",
         "sitegeist/kaleidoscope": "^3.2",
         "jonnitto/prettyembedyoutube": "^6.0"
     },
