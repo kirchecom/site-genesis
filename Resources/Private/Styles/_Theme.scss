@@ -33,5 +33,6 @@ $warning: map-get($theme-colors, "kirchecom-color-13");
 $danger: map-get($theme-colors, "kirchecom-color-21");
 $dark: map-get($theme-colors, "kirchecom-color-01");
 
+$enable-responsive-font-sizes: true;
 $enable-rounded: false;
 $link-decoration: underline;
