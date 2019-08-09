@@ -1,0 +1,4 @@
+prototype(KircheCom.SiteGenesis:Component.Molecule.Text) < prototype(Neos.Fusion:Component) {
+    text = null
+    renderer = afx`{props.text}`
+}

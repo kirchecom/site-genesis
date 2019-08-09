@@ -1,0 +1,9 @@
+prototype(KircheCom.SiteGenesis:Content.Molecule.Text) < prototype(Neos.Neos:ContentComponent) {
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    renderer = KircheCom.SiteGenesis:Component.Molecule.Text {
+        @apply.props = ${props}
+    }
+}
