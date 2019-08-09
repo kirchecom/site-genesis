@@ -6,7 +6,7 @@
         label: 'i18n'
         group: 'stainedGlass'
         icon: 'icon-youtube'
-        position: 1
+        position: 100
         inspector:
             groups:
                 text:
@@ -22,5 +22,5 @@
                 reloadPageIfChanged: true
                 inspector:
                     group: 'text'
-                    position: -1
+                    position: -100
                     editor: 'Neos.Neos/Inspector/Editors/BooleanEditor'

@@ -8,7 +8,7 @@
                 stainedGlass:
                     label: 'i18n'
                     icon: 'icon-th'
-                    position: 9
+                    position: 900
     properties:
         color:
             type: 'string'

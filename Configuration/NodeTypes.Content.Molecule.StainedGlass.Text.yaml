@@ -5,13 +5,13 @@
         label: 'i18n'
         group: 'stainedGlass'
         icon: 'icon-align-left'
-        position: 3
+        position: 300
         inspector:
             groups:
                 text:
                     label: 'i18n'
                     icon: 'icon-align-left'
-                    position: 5
+                    position: 500
     properties:
         text:
             type: 'string'

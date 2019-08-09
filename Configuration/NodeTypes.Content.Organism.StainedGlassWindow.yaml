@@ -5,7 +5,7 @@
         label: 'i18n'
         group: 'structure'
         icon: 'icon-th'
-        position: 1
+        position: 100
     childNodes:
         parts:
             type: 'Neos.Neos:ContentCollection'

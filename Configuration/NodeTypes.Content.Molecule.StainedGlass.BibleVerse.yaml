@@ -5,13 +5,13 @@
         label: 'i18n'
         group: 'stainedGlass'
         icon: 'icon-bible'
-        position: 4
+        position: 400
         inspector:
             groups:
                 bible:
                     label: 'i18n'
                     icon: 'icon-bible'
-                    position: 1
+                    position: 100
     properties:
         text:
             type: 'string'

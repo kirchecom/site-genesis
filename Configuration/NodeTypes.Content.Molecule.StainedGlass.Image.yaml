@@ -5,13 +5,13 @@
         label: 'i18n'
         group: 'stainedGlass'
         icon: 'icon-image'
-        position: 2
+        position: 200
         inspector:
             groups:
                 image:
                     label: 'i18n'
                     icon: 'icon-image'
-                    position: 1
+                    position: 100
     properties:
         image:
             type: 'Neos\Media\Domain\Model\ImageInterface'
@@ -38,5 +38,5 @@
                 reloadIfChanged: true
                 inspector:
                     group: 'text'
-                    position: -1
+                    position: -100
                     editor: 'Neos.Neos/Inspector/Editors/BooleanEditor'
