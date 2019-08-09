@@ -1,0 +1,15 @@
+prototype(KircheCom.SiteGenesis:Content.Organism.ThreeColumns) < prototype(Neos.Fusion:Component) {
+    column1 = Neos.Neos:ContentCollection {
+        nodePath = 'column1'
+    }
+    column2 = Neos.Neos:ContentCollection {
+        nodePath = 'column2'
+    }
+    column3 = Neos.Neos:ContentCollection {
+        nodePath = 'column3'
+    }
+
+    renderer = KircheCom.SiteGenesis:Component.Organism.ThreeColumns {
+        @apply.props = ${props}
+    }
+}

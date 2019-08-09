@@ -1,0 +1,19 @@
+prototype(KircheCom.SiteGenesis:Component.Organism.ThreeColumns) < prototype(Neos.Fusion:Component) {
+    column1 = null
+    column2 = null
+    column3 = null
+
+    renderer = afx`
+        <div class="row">
+            <div class="col-lg">
+                {props.column1}
+            </div>
+            <div class="col-lg">
+                {props.column2}
+            </div>
+            <div class="col-lg">
+                {props.column3}
+            </div>
+        </div>
+    `
+}

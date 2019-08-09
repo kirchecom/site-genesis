@@ -1,0 +1,15 @@
+'KircheCom.SiteGenesis:Content.Organism.ThreeColumns':
+    superTypes:
+        'Neos.Neos:Content': true
+    ui:
+        label: 'i18n'
+        group: 'structure'
+        icon: 'icon-columns'
+        position: 300
+    childNodes:
+        column1:
+            type: 'Neos.Neos:ContentCollection'
+        column2:
+            type: 'Neos.Neos:ContentCollection'
+        column3:
+            type: 'Neos.Neos:ContentCollection'
