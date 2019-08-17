@@ -1,4 +1,4 @@
-prototype(KircheCom.SiteGenesis:Content.Organism.Footer) < prototype(Neos.Fusion:Component) {
+prototype(KircheCom.SiteGenesis:Content.Organism.Footer) < prototype(Neos.Neos:ContentComponent) {
     footerContent = Neos.Neos:ContentCollection {
         nodePath = ${q(site).children('footer').property('_path')}
         collection = ${q(site).children('footer').children()}

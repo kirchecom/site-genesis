@@ -1,4 +1,4 @@
-prototype(KircheCom.SiteGenesis:Content.Organism.StainedGlassWindow) < prototype(Neos.Fusion:Component) {
+prototype(KircheCom.SiteGenesis:Content.Organism.StainedGlassWindow) < prototype(Neos.Neos:ContentComponent) {
     parts = Neos.Neos:ContentCollection {
         nodePath = 'parts'
     }

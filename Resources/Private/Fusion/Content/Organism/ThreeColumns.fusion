@@ -1,4 +1,4 @@
-prototype(KircheCom.SiteGenesis:Content.Organism.ThreeColumns) < prototype(Neos.Fusion:Component) {
+prototype(KircheCom.SiteGenesis:Content.Organism.ThreeColumns) < prototype(Neos.Neos:ContentComponent) {
     column1 = Neos.Neos:ContentCollection {
         nodePath = 'column1'
     }
