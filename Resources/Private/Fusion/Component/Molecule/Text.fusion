@@ -1,4 +1,15 @@
 prototype(KircheCom.SiteGenesis:Component.Molecule.Text) < prototype(Neos.Fusion:Component) {
     text = null
     renderer = afx`{props.text}`
+
+    @styleguide {
+        title = 'Text'
+        description = '
+            Generic component to render text.
+            Since the text content is intended to contain HTML markup, this component is classified as molecule.
+        '
+        props {
+            text = 'Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit. Morbi pretium molestie est, sed aliquet lorem.'
+        }
+    }
 }

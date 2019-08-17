@@ -6,4 +6,32 @@ prototype(KircheCom.SiteGenesis:Component.Organism.Main) < prototype(Neos.Fusion
             {props.mainContent}
         </main>
     `
+
+    @styleguide {
+        title = 'Main'
+        description = '
+            Wrapper for the main content of the page.
+            The main content should include everything visible except of the Header and the Footer components.
+        '
+        props {
+            mainContent = 'Please insert the whole page content as mainContent.'
+        }
+        propSets {
+            StainedGlassWindow {
+                mainContent = Sitegeist.Monocle:Preview.Prototype {
+                    prototypeName = 'KircheCom.SiteGenesis:Component.Organism.StainedGlassWindow'
+                }
+            }
+            ThreeColumns {
+                mainContent = Sitegeist.Monocle:Preview.Prototype {
+                    prototypeName = 'KircheCom.SiteGenesis:Component.Organism.ThreeColumns'
+                }
+            }
+            TwoColumns {
+                mainContent = Sitegeist.Monocle:Preview.Prototype {
+                    prototypeName = 'KircheCom.SiteGenesis:Component.Organism.TwoColumns'
+                }
+            }
+        }
+    }
 }

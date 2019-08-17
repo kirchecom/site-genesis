@@ -16,4 +16,59 @@ prototype(KircheCom.SiteGenesis:Component.Organism.ThreeColumns) < prototype(Neo
             </div>
         </div>
     `
+
+    @styleguide {
+        title = 'Three Columns'
+        description = '
+            Layout component that renders content in three columns if the viewport size is large
+            (at least 992px wide), otherwise it renders the content in a single column.
+        '
+        props {
+            column1 = Neos.Fusion:Loop {
+                items = Neos.Fusion:DataStructure {
+                    10 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Atom.Headline'
+                    }
+                    11 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.Text'
+                        props {
+                            text = 'This is text in the first column.'
+                        }
+                    }
+                }
+                itemName = 'element'
+                itemRenderer = ${element}
+            }
+            column2 = Neos.Fusion:Loop {
+                items = Neos.Fusion:DataStructure {
+                    10 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Atom.Headline'
+                    }
+                    11 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.Text'
+                        props {
+                            text = 'This is text in the second column.'
+                        }
+                    }
+                }
+                itemName = 'element'
+                itemRenderer = ${element}
+            }
+            column3 = Neos.Fusion:Loop {
+                items = Neos.Fusion:DataStructure {
+                    10 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Atom.Headline'
+                    }
+                    11 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.Text'
+                        props {
+                            text = 'This is text in the third column.'
+                        }
+                    }
+                }
+                itemName = 'element'
+                itemRenderer = ${element}
+            }
+        }
+    }
 }

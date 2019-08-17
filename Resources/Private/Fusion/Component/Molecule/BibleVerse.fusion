@@ -14,4 +14,32 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.BibleVerse) < prototype(Neos.
             {props.book} {props.chapter},{props.verses} <small @if.has={props.version}>({props.version})</small>
         `
     }
+
+    @styleguide {
+        title = 'Bible Verse'
+        description = '
+            Component for rendering verses from the Bible.
+            In addition to the text (props.text) and the reference (props.book, props.chapter, props.verses)
+            also the translation version can optionally be specified (props.version)
+            as well as an url to an online Bible server (props.link).
+        '
+        props {
+            text = 'In the beginning God created the heavens and the earth.'
+            book = 'Genesis'
+            chapter = '1'
+            verses = '1'
+            version = 'American Standard Version'
+            link = 'https://www.bible.com/bible/12/GEN.1'
+        }
+        propSets {
+            'Without Link' {
+                text = 'In the beginning God created the heavens and the earth.'
+                book = 'Genesis'
+                chapter = '1'
+                verses = '1'
+                version = 'American Standard Version'
+                link = ''
+            }
+        }
+    }
 }

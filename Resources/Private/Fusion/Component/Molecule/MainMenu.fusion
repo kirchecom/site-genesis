@@ -24,4 +24,37 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.MainMenu) < prototype(Neos.Fu
             </div>
         </nav>
     `
+
+    @styleguide {
+        title = 'Main Menu'
+        description = '
+            Component for rendering the main menu.
+            Only a single instance of the main manu should be present on each page.
+        '
+        props {
+            menuItems = Neos.Fusion:DataStructure {
+                one = Neos.Fusion:DataStructure {
+                    label = 'One'
+                }
+                two = Neos.Fusion:DataStructure {
+                    label = 'Two'
+                }
+                three = Neos.Fusion:DataStructure {
+                    label = 'Three'
+                }
+                current = Neos.Fusion:DataStructure {
+                    label = 'Current'
+                    state = 'current'
+                }
+                four = Neos.Fusion:DataStructure {
+                    label = 'Four'
+                }
+            }
+            logo = Neos.Fusion:Template {
+                templatePath = 'resource://KircheCom.SiteGenesis/Private/Templates/logo.svg'
+                width = 36
+                height = 36
+            }
+        }
+    }
 }

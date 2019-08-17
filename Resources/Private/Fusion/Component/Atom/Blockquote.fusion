@@ -18,4 +18,31 @@ prototype(KircheCom.SiteGenesis:Component.Atom.Blockquote) < prototype(Neos.Fusi
             </footer>
         </blockquote>
     `
+
+    @styleguide {
+        title = 'Blockquote'
+        description = '
+            Basic component for quotes.
+            Can be rendered either with or without the author of the quote (props.reference).
+            Optionally an url can be provided (props.link) which will render the author as a link.
+            The link always opens in a new browser tab.
+        '
+        props {
+            text = 'Spread love everywhere you go. Let no one ever come to you without leaving happier.'
+            reference = 'Mother Teresa'
+            link = ''
+        }
+        propSets {
+            'Without Author' {
+                text = 'Live, Laugh, Love'
+                reference = ''
+                link = ''
+            }
+            'With Link' {
+                text = 'I cannot and will not recant anything, since it is neither safe nor right to go against conscience. May God help me. Amen.'
+                reference = 'Martin Luther'
+                link = 'https://en.wikipedia.org/wiki/Martin_Luther#Diet_of_Worms'
+            }
+        }
+    }
 }

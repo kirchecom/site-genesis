@@ -28,4 +28,31 @@ prototype(KircheCom.SiteGenesis:Component.Atom.Headline) < prototype(Neos.Fusion
             renderer = afx`<h6>{props.text}</h6>`
         }
     }
+
+    @styleguide {
+        title = 'Headline'
+        description = '
+            Basic component for a headline or title.
+            The headline can be rendered in 6 different sizes (h1-h6),
+            however it is recommended to only use h1 to h3 from page title to subsubtitle.
+        '
+        props {
+            text = 'He is risen, He is risen indeed!'
+            level = 'h1'
+        }
+        propSets {
+            h1 {
+                text = 'He is risen, He is risen indeed!'
+                level = 'h1'
+            }
+            h2 {
+                text = 'He is risen, He is risen indeed!'
+                level = 'h2'
+            }
+            h3 {
+                text = 'He is risen, He is risen indeed!'
+                level = 'h3'
+            }
+        }
+    }
 }

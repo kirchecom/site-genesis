@@ -8,4 +8,16 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.StainedGlassBody) < prototype
         <h6 @if.has={props.subtitle} class="card-subtitle mb-2 text-muted">{props.subtitle}</h6>
         <p class="card-text">{props.text}</p>
     `
+
+    @styleguide {
+        title = 'Stained Glass Body'
+        description = '
+            This component should only be used as a body element for stained glass elements.
+            It wraps text content (props.text) and optionally a headline (props.title).
+        '
+        props {
+            title = 'Wanted: Stained Glass Element!'
+            text = 'Please insert me as a body for a stained glass element.'
+        }
+    }
 }

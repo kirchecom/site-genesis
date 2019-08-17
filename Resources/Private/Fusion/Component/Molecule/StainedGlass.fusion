@@ -11,4 +11,107 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.StainedGlass) < prototype(Neo
             </div>
         </div>
     `
+
+    @styleguide {
+        title = 'Stained Glass'
+        description = '
+            Wrapper component that can display different kinds of content.
+            Intended as a basic building block for kirche.com content.
+            Stained Glass can display media formats as images and videos (props.medium)
+            as well as text content (props.body).
+            Also different stained glass colors are available (props.color), please refer to
+            _Theme.scss to see the colors available
+            (kirchecom-color-01, -11, -12, -13, -21, -22, -23, -31, -32, -33, -34, -41, -42, -43, -44
+            as well as transparent).
+            Several Stained Glass elements can be grouped in a Component.Organism.StainedGlassWindow.
+        '
+        props {
+            color = 'transparent'
+            medium = null
+            body = Sitegeist.Monocle:Preview.Prototype {
+                prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlassBody'
+                props {
+                    title = 'A Stained Glass Element'
+                    text = 'This is a simple stained glass element containing a StainedGlassBody with title and text set.'
+                }
+            }
+        }
+        propSets {
+            Color {
+                color = 'kirchecom-color-42'
+                medium = null
+                body = Sitegeist.Monocle:Preview.Prototype {
+                    prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlassBody'
+                    props {
+                        title = 'A Stained Glass Element'
+                        text = 'This is a simple stained glass element containing a StainedGlassBody with title and text set.'
+                    }
+                }
+            }
+            Image {
+                color = 'transparent'
+                medium = Sitegeist.Monocle:Preview.Prototype {
+                    prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlassImage'
+                    props {
+                        imageSource = Sitegeist.Kaleidoscope:DummyImageSource
+                    }
+                }
+                body = 0
+            }
+            'Image with Copyright Notice' {
+                color = 'transparent'
+                medium = Sitegeist.Monocle:Preview.Prototype {
+                    prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlassImage'
+                    props {
+                        imageSource = Sitegeist.Kaleidoscope:DummyImageSource
+                        copyrightNotice = '© by Dummy Image Source'
+                    }
+                }
+                body = 0
+            }
+            'Image with Text' {
+                color = 'transparent'
+                medium = Sitegeist.Monocle:Preview.Prototype {
+                    prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlassImage'
+                    props {
+                        imageSource = Sitegeist.Kaleidoscope:DummyImageSource
+                    }
+                }
+                body = Sitegeist.Monocle:Preview.Prototype {
+                    prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlassBody'
+                    props {
+                        title = 'Image with Text'
+                        text = 'Images and videos can also have a StainedGlassBody containing text and optionally a title.'
+                    }
+                }
+            }
+            'Bible Verse' {
+                color = 'transparent'
+                medium = null
+                body = Sitegeist.Monocle:Preview.Prototype {
+                    prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.BibleVerse'
+                    props {
+                        text = 'In nothing be anxious; but in everything by prayer and supplication with thanksgiving let your requests be made known unto God.
+                            And the peace of God, which passeth all understanding, shall guard your hearts and your thoughts in Christ Jesus.'
+                        book = 'Philippians'
+                        chapter = '4'
+                        verses = '6-7'
+                        version = 'American Standard Version'
+                        link = 'https://www.bible.com/bible/12/PHP.4'
+                    }
+                }
+            }
+            'Quote' {
+                color = 'transparent'
+                medium = null
+                body = Sitegeist.Monocle:Preview.Prototype {
+                    prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.Quote'
+                    props {
+                        text = 'Spread love everywhere you go. Let no one ever come to you without leaving happier.'
+                        author = 'Mother Teresa'
+                    }
+                }
+            }
+        }
+    }
 }

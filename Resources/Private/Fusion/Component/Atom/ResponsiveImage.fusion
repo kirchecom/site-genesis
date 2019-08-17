@@ -16,4 +16,26 @@ prototype(KircheCom.SiteGenesis:Component.Atom.ResponsiveImage) < prototype(Neos
             class={props.class}
         />
     `
+
+    @styleguide {
+        title = 'Responsive Image'
+        description = '
+            Basic component for responsive images.
+            This component enables resolution switching depending on the device
+            by setting the srcset and sizes attributes accordingly.
+            Please specify the image sizes you want to provide to clients in props.srcset.
+            Thumbnails in these sizes will be generated automatically by this component.
+            In props.sizes please define the sizes this image should be displayed in
+            (optionally depending on the viewport size using media queries).
+            To learn more about resolution switching please refer to the following article:
+            https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+        '
+        props {
+            imageSource = Sitegeist.Kaleidoscope:DummyImageSource
+            srcset = '300w, 576w, 768w, 992w, 1200w'
+            sizes = '(min-width: 1200px) 1200px, 100vw'
+            alt = 'Alternative text e.g. for screen readers'
+            title = 'This title appears when hovering with the mouse'
+        }
+    }
 }

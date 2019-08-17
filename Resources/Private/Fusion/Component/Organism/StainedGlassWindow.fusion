@@ -6,4 +6,60 @@ prototype(KircheCom.SiteGenesis:Component.Organism.StainedGlassWindow) < prototy
             {props.parts}
         </div>
     `
+
+    @styleguide {
+        title = 'Stained Glass Window'
+        description = '
+            A component that includes any number of stained glass elements.
+            It will render the stained glass elements in up to three columns depending on the
+            viewport size of the client.
+        '
+        props {
+            parts = Neos.Fusion:Loop {
+                items = Neos.Fusion:DataStructure {
+                    10 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                        propSet = 'Bible Verse'
+                    }
+                    11 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                    }
+                    12 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                        propSet = 'Image'
+                    }
+                    13 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                    }
+                    14 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                        propSet = 'Color'
+                    }
+                    15 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                    }
+                    16 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                        propSet = 'Image with Copyright Notice'
+                    }
+                    17 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                        propSet = 'Quote'
+                    }
+                    18 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                    }
+                    19 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                        propSet = 'Image with Text'
+                    }
+                    20 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.StainedGlass'
+                    }
+                }
+                itemName = 'element'
+                itemRenderer = ${element}
+            }
+        }
+    }
 }

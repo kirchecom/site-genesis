@@ -30,3 +30,35 @@ Neos:
             translation:
                 autoInclude:
                     'KircheCom.SiteGenesis': ['General', 'NodeTypes/*']
+Sitegeist:
+    Monocle:
+        hiddenPrototypeNamePatterns:
+            - 'Carbon.IncludeAssets:*'
+            - 'Sitegeist.Kaleidoscope:*'
+        preview:
+            defaultPrototypeName: 'KircheCom.SiteGenesis:Component.Template.Base'
+        ui:
+            viewportPresets:
+                xs: ~
+                md: ~
+                l: ~
+                bootstrap-xs:
+                    label: 'Extra Small'
+                    width: 300
+                    height: 800
+                bootstrap-sm:
+                    label: 'Small'
+                    width: 576
+                    height: 800
+                bootstrap-md:
+                    label: 'Medium'
+                    width: 768
+                    height: 800
+                bootstrap-lg:
+                    label: 'Large'
+                    width: 992
+                    height: 800
+                bootstrap-xl:
+                    label: 'Extra Large'
+                    width: 1200
+                    height: 800

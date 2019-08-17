@@ -6,4 +6,16 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.Quote) < prototype(Neos.Fusio
         text = ${props.text}
         reference = ${props.author}
     }
+
+    @styleguide {
+        title = 'Quote'
+        description = '
+            Component for rendering a quote.
+            Can be used as content for stained glass elements.
+        '
+        props {
+            text = 'The greatest glory in living lies not in never falling, but in rising every time we fall.'
+            author = 'Nelson Mandela'
+        }
+    }
 }

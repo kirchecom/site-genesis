@@ -15,4 +15,18 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.StainedGlassImage) < prototyp
         />
         <div @if.has={props.copyrightNotice} class="float-right small text-muted m-1 mr-2">{props.copyrightNotice}</div>
     `
+
+    @styleguide {
+        title = 'Stained Glass Image'
+        description = '
+            This component should only be used as a medium element for stained glass elements.
+            It wraps images and renders them as responsive images suitable only for stained glass elements
+            within a stained glass window. This component automatically respects the column sizes of
+            a stained glass window component depending on the viewport size and generates the srcsets respectively.
+        '
+        props {
+            imageSource = Sitegeist.Kaleidoscope:DummyImageSource
+            copyrightNotice = ''
+        }
+    }
 }

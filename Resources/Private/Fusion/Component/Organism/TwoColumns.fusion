@@ -12,4 +12,44 @@ prototype(KircheCom.SiteGenesis:Component.Organism.TwoColumns) < prototype(Neos.
             </div>
         </div>
     `
+
+    @styleguide {
+        title = 'Two Columns'
+        description = '
+            Layout component that renders content in two columns if the viewport size is medium
+            (at least 768px wide), otherwise it renders the content in a single column.
+        '
+        props {
+            column1 = Neos.Fusion:Loop {
+                items = Neos.Fusion:DataStructure {
+                    10 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Atom.Headline'
+                    }
+                    11 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.Text'
+                        props {
+                            text = 'This is text in the first column.'
+                        }
+                    }
+                }
+                itemName = 'element'
+                itemRenderer = ${element}
+            }
+            column2 = Neos.Fusion:Loop {
+                items = Neos.Fusion:DataStructure {
+                    10 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Atom.Headline'
+                    }
+                    11 = Sitegeist.Monocle:Preview.Prototype {
+                        prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.Text'
+                        props {
+                            text = 'This is text in the second column.'
+                        }
+                    }
+                }
+                itemName = 'element'
+                itemRenderer = ${element}
+            }
+        }
+    }
 }

@@ -8,4 +8,14 @@ prototype(KircheCom.SiteGenesis:Component.Organism.Footer) < prototype(Neos.Fusi
             </div>
         </footer>
     `
+
+    @styleguide {
+        title = 'Footer'
+        description = '
+            Represents a page footer that can contain arbitrary content.
+        '
+        props {
+            footerContent = 'The footer content can be a simple text string or more complex elements.'
+        }
+    }
 }

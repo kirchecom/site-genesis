@@ -27,4 +27,33 @@ prototype(KircheCom.SiteGenesis:Component.Template.Base) < prototype(Neos.Fusion
 
         lastVisitedNodeScript = null
     }
+
+    @styleguide {
+        title = 'Base'
+        description = '
+            Base page component. Wraps the whole page, including the header, the main content and the footer.
+        '
+        props {
+            renderer = afx`
+                <Sitegeist.Monocle:Preview.Prototype prototypeName="KircheCom.SiteGenesis:Component.Organism.Header" />
+                <Sitegeist.Monocle:Preview.Prototype prototypeName="KircheCom.SiteGenesis:Component.Organism.Main" propSet="StainedGlassWindow" />
+                <Sitegeist.Monocle:Preview.Prototype prototypeName="KircheCom.SiteGenesis:Component.Organism.Footer" />
+            `
+        }
+    }
+}
+
+prototype(Sitegeist.Monocle:Preview.Page) {
+    head {
+        stylesheets {
+            site = KircheCom.SiteGenesis:Component.Molecule.Meta.StyleSheets
+        }
+        metadata = KircheCom.SiteGenesis:Component.Molecule.Meta.MetaData
+        titleTag.content = ${prototypeName}
+    }
+
+    bodyScripts = KircheCom.SiteGenesis:Component.Molecule.Meta.JavaScripts
+    bodyScripts.@position = 'after body'
+
+    lastVisitedNodeScript = null
 }
