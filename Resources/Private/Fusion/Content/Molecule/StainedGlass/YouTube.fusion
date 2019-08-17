@@ -4,6 +4,8 @@ prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.YouTube) < prototy
     }
 
     renderer = KircheCom.SiteGenesis:Component.Molecule.StainedGlass {
+        color = ${q(node).property('color')}
+
         medium = Jonnitto.PrettyEmbedYoutube:Content.Youtube {
             @apply.props = ${props}
         }

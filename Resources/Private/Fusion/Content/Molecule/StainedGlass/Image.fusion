@@ -4,6 +4,8 @@ prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Image) < prototype
     }
 
     renderer = KircheCom.SiteGenesis:Component.Molecule.StainedGlass {
+        color = ${q(node).property('color')}
+
         medium = KircheCom.SiteGenesis:Component.Molecule.StainedGlassImage {
             imageSource = Sitegeist.Kaleidoscope:AssetImageSource {
                 asset = ${q(node).property('image')}

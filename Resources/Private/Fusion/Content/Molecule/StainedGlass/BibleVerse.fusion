@@ -1,4 +1,4 @@
-prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.BibleVerse) < prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass) {
+prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.BibleVerse) < prototype(Neos.Neos:ContentComponent) {
     text = Neos.Neos:Editable {
         property = 'text'
     }
@@ -36,6 +36,7 @@ prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.BibleVerse) < prot
     link.@if.has = ${q(node).property('showLink')}
 
     renderer = KircheCom.SiteGenesis:Component.Molecule.StainedGlass {
+        color = ${q(node).property('color')}
         body = KircheCom.SiteGenesis:Component.Molecule.BibleVerse {
             @apply.props = ${props}
         }

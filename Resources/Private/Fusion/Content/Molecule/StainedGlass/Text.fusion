@@ -1,4 +1,4 @@
-prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Text) < prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass) {
+prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Text) < prototype(Neos.Neos:ContentComponent) {
     text = Neos.Neos:Editable {
         property = 'text'
     }
@@ -6,6 +6,8 @@ prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Text) < prototype(
     title = ${q(node).property('title')}
 
     renderer = KircheCom.SiteGenesis:Component.Molecule.StainedGlass {
+        color = ${q(node).property('color')}
+
         body = KircheCom.SiteGenesis:Component.Molecule.StainedGlassBody {
             @apply.props = ${props}
         }
