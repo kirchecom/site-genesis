@@ -7,17 +7,20 @@
         "url": "https://github.com/kirchecom/site-genesis.git"
     },
     "license": "EUPL-1.2",
-    "main": "Resources/Private/JavaScript/index.js",
     "scripts": {
-        "build:dev": "webpack --mode=development",
-        "build:production": "cross-env NODE_ENV=production webpack --mode=production",
-        "watch": "webpack --watch",
+        "prepare": "npm run build",
+        "build": "npm run build:production",
+        "build:development": "webpack --mode=development",
+        "build:production": "webpack --mode=production",
+        "watch": "npm run watch:development",
+        "watch:development": "webpack --watch --mode=development",
+        "watch:production": "webpack --watch --mode=production",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "dependencies": {
+    "dependencies": {},
+    "devDependencies": {
         "autoprefixer": "^9.6.1",
         "bootstrap": "^4.3.1",
-        "cross-env": "^5.2.0",
         "css-loader": "^3.2.0",
         "extract-loader": "^3.1.0",
         "file-loader": "^4.2.0",
