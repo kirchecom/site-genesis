@@ -15,7 +15,7 @@
         "watch": "npm run watch:development",
         "watch:development": "webpack --watch --mode=development",
         "watch:production": "webpack --watch --mode=production",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "testcafe all Tests/NodeTypes/**/*.ts"
     },
     "dependencies": {},
     "devDependencies": {
@@ -29,6 +29,7 @@
         "popper.js": "^1.15.0",
         "postcss-loader": "^3.0.0",
         "sass-loader": "^7.3.1",
+        "testcafe": "^1.4.1",
         "webpack": "^4.39.2",
         "webpack-cli": "^3.3.7"
     }
