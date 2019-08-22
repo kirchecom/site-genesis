@@ -10,7 +10,7 @@
     "suggest": {
         "neos/seo": "*"
     },
-    "name": "kirchecom/sitegenesis",
+    "name": "kirchecom/site-genesis",
     "autoload": {
         "psr-4": {
             "KircheCom\\SiteGenesis\\": "Classes/"
