@@ -6,7 +6,7 @@ fixture(PROTOTYPE_NAME);
 
 test.page(getUrlFor(PROTOTYPE_NAME))('has SVG logo', async t => {
     await t
-        .expect(Selector('.kirchecom-mainmenu').find('a.navbar-brand').find('svg'))
+        .expect(Selector('.kirchecom-mainmenu').find('a.navbar-brand').find('svg').exists)
         .ok()
 });
 
