@@ -1,5 +1,6 @@
 prototype(KircheCom.SiteGenesis:Content.Organism.Header) < prototype(Neos.Neos:ContentComponent) {
     mainMenu = KircheCom.SiteGenesis:Content.Molecule.MainMenu
+    metaMenu = KircheCom.SiteGenesis:Content.Molecule.MetaMenu
 
     renderer = KircheCom.SiteGenesis:Component.Organism.Header {
         @apply.props = ${props}

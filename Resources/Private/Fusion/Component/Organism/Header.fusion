@@ -1,8 +1,10 @@
 prototype(KircheCom.SiteGenesis:Component.Organism.Header) < prototype(Neos.Fusion:Component) {
     mainMenu = null
+    metaMenu = null
 
     renderer = afx`
         <header class="container">
+            {props.metaMenu}
             {props.mainMenu}
         </header>
     `
@@ -10,11 +12,14 @@ prototype(KircheCom.SiteGenesis:Component.Organism.Header) < prototype(Neos.Fusi
     @styleguide {
         title = 'Header'
         description = '
-            The page header at the moment only contains the main menu.
+            The page header contains the main menu and the meta menu.
         '
         props {
             mainMenu = Sitegeist.Monocle:Preview.Prototype {
                 prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.MainMenu'
+            }
+            metaMenu = Sitegeist.Monocle:Preview.Prototype {
+                prototypeName = 'KircheCom.SiteGenesis:Component.Molecule.MetaMenu'
             }
         }
     }

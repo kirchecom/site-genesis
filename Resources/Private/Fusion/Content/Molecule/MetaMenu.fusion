@@ -1,0 +1,12 @@
+prototype(KircheCom.SiteGenesis:Content.Molecule.MetaMenu) < prototype(Neos.Neos:ContentComponent) {
+    menuItems = Neos.Neos:MenuItems {
+        entryLevel = 2
+        maximumLevels = 1
+        startingPoint = ${q(site).children('[uriPathSegment="meta"]').get(0)}
+    }
+
+    renderer = KircheCom.SiteGenesis:Component.Molecule.MetaMenu {
+        @apply.props = ${props}
+        @if.has = ${props.menuItems}
+    }
+}

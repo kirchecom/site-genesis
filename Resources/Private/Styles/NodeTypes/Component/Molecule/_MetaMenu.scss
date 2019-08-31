@@ -1,0 +1,17 @@
+// Import this here only if _MainMenu.scss is not used
+// @import "~bootstrap/scss/nav";
+
+.kirchecom-metamenu {
+    a {
+        color: $gray-900;
+        text-decoration: none;
+
+        &:hover {
+            color: $gray-700;
+        }
+    }
+
+    & + .kirchecom-mainmenu {
+        margin-top: 0 !important;
+    }
+}

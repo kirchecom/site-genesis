@@ -1,0 +1,29 @@
+prototype(KircheCom.SiteGenesis:Component.Molecule.MetaMenu) < prototype(Neos.Fusion:Component) {
+    menuItems = null
+
+    renderer = afx`
+        <nav class="kirchecom-metamenu nav justify-content-end small">
+            <Neos.Fusion:Loop items={props.menuItems}>
+                <Neos.Neos:NodeLink attributes.class='nav-link' node={item.node}>{item.label}</Neos.Neos:NodeLink>
+            </Neos.Fusion:Loop>
+        </nav>
+    `
+
+    @styleguide {
+        title = 'Meta Menu'
+        description = '
+            Navigation menu intended for meta links as user related links (e.g. login, profile)
+            or links to legally required pages (e.g. the privacy and imprint pages).
+        '
+        props {
+            menuItems = Neos.Fusion:DataStructure {
+                privacy = Neos.Fusion:DataStructure {
+                    label = 'Privacy'
+                }
+                imprint = Neos.Fusion:DataStructure {
+                    label = 'Imprint'
+                }
+            }
+        }
+    }
+}

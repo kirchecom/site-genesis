@@ -10,6 +10,12 @@ test.page(getUrlFor(PROTOTYPE_NAME))('contains the main menu', async t => {
         .ok()
 });
 
+test.page(getUrlFor(PROTOTYPE_NAME))('contains the meta menu', async t => {
+    await t
+        .expect(Selector('header').find('.kirchecom-metamenu').exists)
+        .ok()
+});
+
 test.page(getUrlFor(PROTOTYPE_NAME))('renders inside a container', async t => {
     await t
         .expect(Selector('header').hasClass('container'))
