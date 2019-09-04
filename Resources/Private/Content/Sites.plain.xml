@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <site name="kirche.com" state="1" siteResourcesPackageKey="KircheCom.SiteGenesis" siteNodeName="kirche-com">
+  <nodes formatVersion="2.0">
+   <node identifier="1fd939ec-523d-4c27-bf8f-b854bee6584b" nodeName="kirche-com">
+    <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
+      <language>de</language>
+     </dimensions>
+     <accessRoles __type="array"/>
+     <properties>
+      <uriPathSegment __type="string">welcome</uriPathSegment>
+      <title __type="string">Willkommen</title>
+     </properties>
+    </variant>
+    <node identifier="2ea094d3-ff36-106a-208f-0a04c49c4f51" nodeName="footer">
+     <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+    </node>
+    <node identifier="09b33601-7f9c-c268-0972-6668e64656c9" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+    </node>
+    <node identifier="3bf47a52-5202-42e7-aacf-7f68a41b91f3" nodeName="node-rtb83um72wfkw">
+     <variant sortingIndex="300" workspace="live" nodeType="Neos.Neos:Shortcut" version="1" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties>
+       <uriPathSegment __type="string">meta</uriPathSegment>
+       <metaRobotsNoindex __type="string">1</metaRobotsNoindex>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Meta</title>
+      </properties>
+     </variant>
+    </node>
+   </node>
+  </nodes>
+ </site>
+</root>

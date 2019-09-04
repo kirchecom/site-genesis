@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <site name="kirche.com" state="1" siteResourcesPackageKey="KircheCom.SiteGenesis" siteNodeName="kirche-com">
+  <nodes formatVersion="2.0">
+   <node identifier="1fd939ec-523d-4c27-bf8f-b854bee6584b" nodeName="kirche-com">
+    <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
+      <language>en</language>
+     </dimensions>
+     <accessRoles __type="array"/>
+     <properties>
+      <uriPathSegment __type="string">welcome</uriPathSegment>
+      <title __type="string">Welcome</title>
+     </properties>
+    </variant>
+    <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
+      <language>de</language>
+     </dimensions>
+     <accessRoles __type="array"/>
+     <properties>
+      <uriPathSegment __type="string">welcome</uriPathSegment>
+      <title __type="string">Willkommen</title>
+     </properties>
+    </variant>
+    <node identifier="2ea094d3-ff36-106a-208f-0a04c49c4f51" nodeName="footer">
+     <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+     <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+     <node identifier="29d284dd-702c-4b0f-896a-a57f5ca011dd" nodeName="node-ahvueqjp79j8z">
+      <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.Text" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties>
+        <text __type="string">&lt;p&gt;Der Footer ist auf allen Seiten gleich. Ersetze diesen Text mit deinen Inhalten oder entferne den Text.&lt;/p&gt;</text>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="6f426548-4d76-4505-b0f1-2a45e345d6de" nodeName="node-n3ituaumw0udc">
+      <variant sortingIndex="200" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.Text" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties>
+        <text __type="string">&lt;p&gt;The footer is always the same on any page. Insert something here or remove this text.&lt;/p&gt;</text>
+       </properties>
+      </variant>
+     </node>
+    </node>
+    <node identifier="09b33601-7f9c-c268-0972-6668e64656c9" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties/>
+     </variant>
+     <node identifier="1ef3e104-ba5c-45de-9200-5eb7493283ab" nodeName="node-ey8x6x8qp91b1">
+      <variant sortingIndex="200" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Organism.StainedGlassWindow" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <node identifier="68178114-a047-78f0-ab0f-f696c6520d84" nodeName="parts">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="8c34216d-50cc-4047-968c-92199ada2e71" nodeName="node-d9wymlis869d3">
+        <variant sortingIndex="150" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.StainedGlass.BibleVerse" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <color __type="string">transparent</color>
+          <text __type="string">&lt;p&gt;Commit your deeds to the Lord,&lt;br&gt;and your plans shall succeed.&lt;/p&gt;</text>
+          <book __type="string">PRO</book>
+          <chapter __type="integer">16</chapter>
+          <verses __type="string">3</verses>
+          <version __type="string">YOUVERSION-1209</version>
+          <showLink __type="boolean">1</showLink>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="ad122ee1-1b53-4463-8006-c4410e18f650" nodeName="node-w2rv6gf10d6xc">
+        <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Text" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <color __type="string">transparent</color>
+          <text __type="string">&lt;p&gt;&lt;strong&gt;Welcome&lt;/strong&gt; 🎉 to your new web application platform! Please sign in at &lt;a href=&quot;/neos&quot;&gt;/neos&lt;/a&gt; and remove all content which you don't need.&lt;/p&gt;&lt;p&gt;Please don't forget to remove &lt;a href=&quot;/de&quot;&gt;German translations&lt;/a&gt; if you don't offer a German version. Otherwise placeholders will be shown to your visitors.&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="cb8e2842-b436-4b34-93e0-4dabdc618878" nodeName="node-ytxzhrceqa03p">
+      <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Organism.StainedGlassWindow" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <node identifier="f09905bd-5ac1-cdd7-0c6b-9ccbfa0165ee" nodeName="parts">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="da0a9f4c-7866-4819-b493-b800d1bc2027" nodeName="node-0x7gdzqzso7np">
+        <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Text" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <color __type="string">transparent</color>
+          <text __type="string">&lt;p&gt;&lt;strong&gt;Herzlich Willkommen&lt;/strong&gt; 🎉 auf deiner neuen Webplattform! Melde dich einfach unter &lt;a href=&quot;/neos&quot;&gt;/neos&lt;/a&gt; an und lösche alle Inhalte, die du nicht brauchst.&lt;/p&gt;&lt;p&gt;Bitte vergiss nicht, die &lt;a href=&quot;/en&quot;&gt;englischen Übersetzungen&lt;/a&gt; der Seiten zu löschen, wenn du keine Übersetzungen anbietest. Sonst werden dort nur Platzhalter angezeigt.&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="b0378fe6-2c8e-4a13-86a4-54945cd0bbaf" nodeName="node-pzdrltgd3qnup">
+        <variant sortingIndex="150" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.StainedGlass.BibleVerse" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <color __type="string">transparent</color>
+          <text __type="string">&lt;p&gt;Befiehl dem HERRN deine Werke, dann werden deine Pläne gelingen.&lt;/p&gt;</text>
+          <book __type="string">PRO</book>
+          <chapter __type="integer">16</chapter>
+          <verses __type="string">3</verses>
+          <version __type="string">BIBLESERVER-MENG</version>
+          <showLink __type="boolean">1</showLink>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="0fc01def-608b-4a5a-84cc-31d1073916a1" nodeName="node-e7xwvsujpspws">
+     <variant sortingIndex="400" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties>
+       <uriPathSegment __type="string">page-1</uriPathSegment>
+       <title __type="string">Page 1</title>
+      </properties>
+     </variant>
+     <variant sortingIndex="400" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties>
+       <uriPathSegment __type="string">page-1</uriPathSegment>
+       <title __type="string">Seite 1</title>
+      </properties>
+     </variant>
+     <node identifier="d9f16691-e673-ed44-aa86-5727160fc6d2" nodeName="footer">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="093e854c-93fb-3572-cbfd-42b658cc4e32" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <node identifier="c283c257-d754-4f11-82d0-449617b19991" nodeName="node-abc3bl7vmeq64">
+       <variant sortingIndex="200" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.Text" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;p&gt;&lt;i&gt;Please remove this page or insert your own content.&lt;/i&gt;&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="fb5d4f0e-c7dd-4e59-b00f-cd32b486a9e8" nodeName="node-bftw5w3s5p1qw">
+       <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.Text" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;p&gt;&lt;i&gt;Diese Seite kannst du löschen oder eigene Inhalte hinzufügen.&lt;/i&gt;&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="e2d7f170-7b0d-46b4-8d31-1200d8557e8a" nodeName="node-lx7i8oqpbd9zy">
+     <variant sortingIndex="450" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties>
+       <uriPathSegment __type="string">page-2</uriPathSegment>
+       <title __type="string">Page 2</title>
+      </properties>
+     </variant>
+     <variant sortingIndex="450" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties>
+       <uriPathSegment __type="string">page-2</uriPathSegment>
+       <title __type="string">Seite 2</title>
+      </properties>
+     </variant>
+     <node identifier="b96f28e6-0032-03b0-b5fc-2a2c19fb0cb3" nodeName="footer">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="cff64ae7-5fe1-0b3f-d250-9ef8715b9744" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties/>
+      </variant>
+      <node identifier="9241a7c8-896d-4f59-90a7-dbacdd5e996d" nodeName="node-8v66ks6jzzg4d">
+       <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.Text" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;p&gt;&lt;i&gt;Diese Seite kannst du löschen oder eigene Inhalte hinzufügen.&lt;/i&gt;&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="e4a540b3-752b-4ffe-8c43-8e3e51d4e6fe" nodeName="node-mu8hxi2iljkb7">
+       <variant sortingIndex="200" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.Text" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties>
+         <text __type="string">&lt;p&gt;&lt;i&gt;Please remove this page or insert your own content.&lt;/i&gt;&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="3bf47a52-5202-42e7-aacf-7f68a41b91f3" nodeName="node-rtb83um72wfkw">
+     <variant sortingIndex="300" workspace="live" nodeType="Neos.Neos:Shortcut" version="1" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties>
+       <uriPathSegment __type="string">meta</uriPathSegment>
+       <metaRobotsNoindex __type="string">1</metaRobotsNoindex>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Meta</title>
+      </properties>
+     </variant>
+     <variant sortingIndex="300" workspace="live" nodeType="Neos.Neos:Shortcut" version="1" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <properties>
+       <uriPathSegment __type="string">meta</uriPathSegment>
+       <metaRobotsNoindex __type="string">1</metaRobotsNoindex>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Meta</title>
+      </properties>
+     </variant>
+     <node identifier="e21f5de1-b35d-4209-b6cb-84d2b7bfe2bb" nodeName="node-frnfq56q8io0o">
+      <variant sortingIndex="500" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties>
+        <uriPathSegment __type="string">imprint</uriPathSegment>
+        <title __type="string">Impressum</title>
+       </properties>
+      </variant>
+      <variant sortingIndex="500" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties>
+        <uriPathSegment __type="string">imprint</uriPathSegment>
+        <title __type="string">Imprint</title>
+       </properties>
+      </variant>
+      <node identifier="26feb342-291d-df84-0f77-60360ee137ed" nodeName="footer">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="0efda14b-0fd8-321c-8a8c-7db48bc814b1" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="6f26beea-2e0c-4248-9dc4-3e4c21cf88ad" nodeName="node-5ojbo8sp2onk0">
+        <variant sortingIndex="250" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Atom.Headline" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <level __type="string">h1</level>
+          <text __type="string">Imprint</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="1a90ba38-625f-45fa-8502-c86e44a02cec" nodeName="node-ff1mbmxviwo5c">
+        <variant sortingIndex="150" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.Text" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;p&gt;Füge hier dein Impressum mit Kontaktmöglichkeiten ein.&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="3fe96351-fbd9-4374-8276-828a0532b076" nodeName="node-lbuz8qkigusj6">
+        <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Atom.Headline" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <level __type="string">h1</level>
+          <text __type="string">Impressum</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="2ec22986-b647-452c-be1a-d56ff10dd02d" nodeName="node-nyu8sewwqccwd">
+        <variant sortingIndex="300" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.Text" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;p&gt;Please insert your imprint information here or remove this page.&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="0855366f-e068-465f-a099-fa3bb0775c12" nodeName="node-kq56d2cbrwmzm">
+      <variant sortingIndex="450" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties>
+        <uriPathSegment __type="string">privacy</uriPathSegment>
+        <title __type="string">Datenschutz</title>
+       </properties>
+      </variant>
+      <variant sortingIndex="450" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Template.Base" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties>
+        <uriPathSegment __type="string">privacy</uriPathSegment>
+        <title __type="string">Privacy</title>
+       </properties>
+      </variant>
+      <node identifier="15c8cd0e-3e4d-d9a9-e7a1-bed9df1f88c7" nodeName="footer">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="dae44e34-b1f4-83a7-a8c1-22dcc0615824" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>en</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <properties/>
+       </variant>
+       <node identifier="2feb69fb-d3b4-41ed-980f-7ceadcf29d33" nodeName="node-1il0k6lc25u3w">
+        <variant sortingIndex="100" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Atom.Headline" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <level __type="string">h1</level>
+          <text __type="string">Datenschutz</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="c98a55fb-ce0f-4a6d-aded-fff475ca0920" nodeName="node-j62me8p5aovvz">
+        <variant sortingIndex="300" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.Text" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;p&gt;Please insert your privacy policy here or remove this page.&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="15b06338-ea03-4105-a06a-7c62a684f718" nodeName="node-q0hyacrgchmno">
+        <variant sortingIndex="150" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Molecule.Text" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <text __type="string">&lt;p&gt;Füge hier deine Datenschutzerklärung ein.&lt;/p&gt;</text>
+         </properties>
+        </variant>
+       </node>
+       <node identifier="e877f6c6-bb68-492d-8506-accc2ff2314c" nodeName="node-zg6qtte8zgplr">
+        <variant sortingIndex="250" workspace="live" nodeType="KircheCom.SiteGenesis:Content.Atom.Headline" version="1" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>en</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <properties>
+          <level __type="string">h1</level>
+          <text __type="string">Privacy Policy</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+   </node>
+  </nodes>
+ </site>
+</root>
