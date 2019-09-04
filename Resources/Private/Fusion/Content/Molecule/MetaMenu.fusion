@@ -1,9 +1,21 @@
 prototype(KircheCom.SiteGenesis:Content.Molecule.MetaMenu) < prototype(Neos.Neos:ContentComponent) {
-    menuItems = Neos.Neos:MenuItems {
+    metaItems = Neos.Neos:MenuItems {
         entryLevel = 2
         maximumLevels = 1
         startingPoint = ${q(site).children('[uriPathSegment="meta"]').get(0)}
     }
+
+    languageItems = Neos.Neos:DimensionsMenuItems {
+        dimension = 'language'
+    }
+
+    // Add a menu item only if a translated version of the node actually exists (state == 'normal')
+    // Other values for state:
+    // - 'current': Language already selected
+    // - 'absent': No translation for the actual node available
+    languageItems.@process.onlyTranslated = ${Array.filter(value, menuItem => menuItem.state == 'normal')}
+
+    menuItems = ${Array.concat(this.languageItems, this.metaItems)}
 
     renderer = KircheCom.SiteGenesis:Component.Molecule.MetaMenu {
         @apply.props = ${props}
