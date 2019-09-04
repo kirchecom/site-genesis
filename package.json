@@ -15,7 +15,11 @@
         "watch": "npm run watch:development",
         "watch:development": "webpack --watch --mode=development",
         "watch:production": "webpack --watch --mode=production",
-        "test": "testcafe all Tests/NodeTypes/**/*.ts"
+        "pretest": "echo 'For all tests to be run the dev server has to be started: ./flow server:run'",
+        "test": "testcafe all Tests/NodeTypes/**/*.ts",
+        "pretest:demo": "echo 'For the demo test to be run the demo content has to be imported: ./flow site:import --package-key \"KircheCom.SiteGenesis\"'",
+        "test:demo": "testcafe all Tests/Demo/**/*.ts",
+        "test:all": "npm run test && npm run test:demo"
     },
     "dependencies": {},
     "devDependencies": {
