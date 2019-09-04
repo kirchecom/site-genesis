@@ -100,7 +100,7 @@
          <accessRoles __type="array"/>
          <properties>
           <color __type="string">transparent</color>
-          <text __type="string">&lt;p&gt;Commit your deeds to the Lord,&lt;br&gt;and your plans shall succeed.&lt;/p&gt;</text>
+          <text __type="string">&lt;p&gt;Commit your deeds to the Lord, and your plans shall succeed.&lt;/p&gt;</text>
           <book __type="string">PRO</book>
           <chapter __type="integer">16</chapter>
           <verses __type="string">3</verses>
