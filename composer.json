@@ -1,5 +1,7 @@
 {
+    "name": "kirchecom/site-genesis",
     "description": "Neos site package for kirche.com, version Genesis",
+    "license": "EUPL-1.2",
     "type": "neos-site",
     "require": {
         "neos/neos": "*",
@@ -9,12 +11,6 @@
     },
     "suggest": {
         "neos/seo": "*"
-    },
-    "name": "kirchecom/site-genesis",
-    "autoload": {
-        "psr-4": {
-            "KircheCom\\SiteGenesis\\": "Classes/"
-        }
     },
     "extra": {
         "neos": {
