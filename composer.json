@@ -4,13 +4,13 @@
     "license": "EUPL-1.2",
     "type": "neos-site",
     "require": {
-        "neos/neos": "*",
-        "sitegeist/kaleidoscope": "^3.2",
+        "neos/neos": "^5.0",
+        "sitegeist/kaleidoscope": "^5.0",
         "jonnitto/prettyembedyoutube": "^6.0",
-        "sitegeist/monocle": "^6.1"
+        "sitegeist/monocle": "^7.0"
     },
     "suggest": {
-        "neos/seo": "*"
+        "neos/seo": "^3.0"
     },
     "extra": {
         "neos": {
