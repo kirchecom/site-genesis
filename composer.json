@@ -5,7 +5,7 @@
     "type": "neos-site",
     "require": {
         "neos/neos": "^5.0",
-        "sitegeist/kaleidoscope": "^5.0",
+        "sitegeist/kaleidoscope": "^5.1",
         "jonnitto/prettyembedyoutube": "^6.0",
         "sitegeist/monocle": "^7.0"
     },
