@@ -1,6 +1,6 @@
 {
     "name": "@kirchecom/site-genesis",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "Neos site package for kirche.com, version Genesis",
     "repository": {
         "type": "git",
@@ -23,17 +23,17 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "autoprefixer": "^9.7.1",
-        "bootstrap": "^4.3.1",
-        "css-loader": "^3.2.0",
+        "autoprefixer": "^9.7.3",
+        "bootstrap": "^4.4.1",
+        "css-loader": "^3.2.1",
         "extract-loader": "^3.1.0",
-        "file-loader": "^4.2.0",
+        "file-loader": "^5.0.2",
         "jquery": "^3.4.1",
         "node-sass": "^4.13.0",
         "popper.js": "^1.16.0",
         "postcss-loader": "^3.0.0",
         "sass-loader": "^8.0.0",
-        "testcafe": "^1.6.0",
+        "testcafe": "^1.7.0",
         "webpack": "^4.41.2",
         "webpack-cli": "^3.3.10"
     }
