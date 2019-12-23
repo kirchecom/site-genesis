@@ -28,4 +28,10 @@
             background-color: $dark !important;
         }
     }
+
+    a.navbar-brand {
+        display: flex;
+        align-self: stretch;
+        align-items: center;
+    }
 }
