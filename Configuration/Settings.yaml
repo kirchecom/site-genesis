@@ -30,6 +30,13 @@ Neos:
             translation:
                 autoInclude:
                     'KircheCom.SiteGenesis': ['General', 'NodeTypes/*']
+Jonnitto:
+    PrettyEmbedYoutube:
+        url:
+            playlist:
+                embed: 'https://www.youtube-nocookie.com/embed/videoseries?list=%id%'
+            video:
+                embed: 'https://www.youtube-nocookie.com/embed/%id%'
 Sitegeist:
     Monocle:
         hiddenPrototypeNamePatterns:
