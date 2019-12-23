@@ -15,7 +15,7 @@
     properties:
         text:
             type: 'string'
-            defaultValue: 'Suche Frieden und jage ihm nach!'
+            defaultValue: 'Ich glaube; hilf meinem Unglauben!'
             ui:
                 inlineEditable: true
                 inline:
@@ -55,7 +55,7 @@
                             a: true
         book:
             type: 'string'
-            defaultValue: 'PSA'
+            defaultValue: 'MRK'
             validation:
                 'Neos.Neos/Validation/NotEmptyValidator': []
                 'Neos.Neos/Validation/RegularExpressionValidator':
@@ -202,7 +202,7 @@
                                 label: 'i18n'
         chapter:
             type: 'integer'
-            defaultValue: 34
+            defaultValue: 9
             validation:
                 'Neos.Neos/Validation/NotEmptyValidator': []
                 'Neos.Neos/Validation/IntegerValidator': []
@@ -213,7 +213,7 @@
                     group: 'bible'
         verses:
             type: 'string'
-            defaultValue: '14b'
+            defaultValue: '24'
             validation:
                 'Neos.Neos/Validation/NotEmptyValidator': []
                 'Neos.Neos/Validation/RegularExpressionValidator':
@@ -225,7 +225,7 @@
                     group: 'bible'
         version:
             type: 'string'
-            defaultValue: 'YOUVERSION-51'
+            defaultValue: 'BIBLESERVER-MENG'
             validation:
                 'Neos.Neos/Validation/NotEmptyValidator': []
                 'Neos.Neos/Validation/RegularExpressionValidator':
