@@ -6,7 +6,7 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.StainedGlassBody) < prototype
     renderer = afx`
         <h5 @if.has={props.title} class="card-title">{props.title}</h5>
         <h6 @if.has={props.subtitle} class="card-subtitle mb-2 text-muted">{props.subtitle}</h6>
-        <p class="card-text">{props.text}</p>
+        <div class="card-text">{props.text}</div>
     `
 
     @styleguide {

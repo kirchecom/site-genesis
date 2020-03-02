@@ -5,7 +5,7 @@ prototype(KircheCom.SiteGenesis:Component.Atom.Blockquote) < prototype(Neos.Fusi
 
     renderer = afx`
         <blockquote class="kirchecom-blockquote blockquote">
-            <p>{props.text}</p>
+            <div>{props.text}</div>
             <footer @if.has={props.reference} class="blockquote-footer text-muted">
                 <cite @if.has={props.link}>
                     <a href={props.link} target="_blank" rel="noopener">

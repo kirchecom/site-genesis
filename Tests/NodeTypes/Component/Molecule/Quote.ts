@@ -6,7 +6,7 @@ fixture(PROTOTYPE_NAME);
 
 test.page(getUrlFor(PROTOTYPE_NAME))('shows text and author', async t => {
     await t
-        .expect(Selector('.kirchecom-blockquote').find('p').innerText)
+        .expect(Selector('.kirchecom-blockquote').find('div').innerText)
         .eql('The greatest glory in living lies not in never falling, but in rising every time we fall.')
         .expect(Selector('.kirchecom-blockquote').find('footer').innerText)
         .eql('Nelson Mandela')

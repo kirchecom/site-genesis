@@ -48,7 +48,7 @@ test.page(getUrlFor(PROTOTYPE_NAME, 'Image with Text'))('renders with image, tit
 
 test.page(getUrlFor(PROTOTYPE_NAME, 'Bible Verse'))('renders with Bible verse', async t => {
     await t
-        .expect(Selector('.kirchecom-stainedglass').find('.card-body').find('.kirchecom-blockquote').find('p').innerText)
+        .expect(Selector('.kirchecom-stainedglass').find('.card-body').find('.kirchecom-blockquote').find('div').innerText)
         .contains('In nothing be anxious')
         .expect(Selector('.kirchecom-stainedglass').find('.card-body').find('.kirchecom-blockquote').find('footer').innerText)
         .eql('Philippians 4,6-7 (American Standard Version)')
@@ -58,7 +58,7 @@ test.page(getUrlFor(PROTOTYPE_NAME, 'Bible Verse'))('renders with Bible verse', 
 
 test.page(getUrlFor(PROTOTYPE_NAME, 'Quote'))('renders with quote', async t => {
     await t
-        .expect(Selector('.kirchecom-stainedglass').find('.card-body').find('.kirchecom-blockquote').find('p').innerText)
+        .expect(Selector('.kirchecom-stainedglass').find('.card-body').find('.kirchecom-blockquote').find('div').innerText)
         .eql('Spread love everywhere you go. Let no one ever come to you without leaving happier.')
         .expect(Selector('.kirchecom-stainedglass').find('.card-body').find('.kirchecom-blockquote').find('footer').innerText)
         .eql('Mother Teresa')

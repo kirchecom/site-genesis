@@ -2,7 +2,7 @@ prototype(KircheCom.SiteGenesis:Component.Organism.Main) < prototype(Neos.Fusion
     mainContent = null
 
     renderer = afx`
-        <main role="main" class="container my-4 my-lg-5">
+        <main class="container my-4 my-lg-5">
             {props.mainContent}
         </main>
     `

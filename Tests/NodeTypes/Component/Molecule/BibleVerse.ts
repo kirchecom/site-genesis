@@ -6,7 +6,7 @@ fixture(PROTOTYPE_NAME);
 
 test.page(getUrlFor(PROTOTYPE_NAME))('shows text and reference', async t => {
     await t
-        .expect(Selector('.kirchecom-blockquote').find('p').innerText)
+        .expect(Selector('.kirchecom-blockquote').find('div').innerText)
         .eql('In the beginning God created the heavens and the earth.')
         .expect(Selector('.kirchecom-blockquote').find('footer').innerText)
         .eql('Genesis 1,1 (American Standard Version)')
