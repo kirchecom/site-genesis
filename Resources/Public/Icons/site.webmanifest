@@ -8,12 +8,12 @@
             "type": "image/png"
         },
         {
-            "src": "/_Resources/Static/Packages/KircheCom.SiteGenesis/Icons/android-chrome-256x256.png",
-            "sizes": "256x256",
+            "src": "/_Resources/Static/Packages/KircheCom.SiteGenesis/Icons/android-chrome-512x512.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
-    "theme_color": "#000b1f",
-    "background_color": "#000b1f",
+    "theme_color": "#00163d",
+    "background_color": "#00163d",
     "display": "standalone"
 }
