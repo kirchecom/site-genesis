@@ -1,6 +1,19 @@
 prototype(KircheCom.SiteGenesis:Content.Organism.StainedGlassWindow) < prototype(Neos.Neos:ContentComponent) {
     parts = Neos.Neos:ContentCollection {
         nodePath = 'parts'
+        content {
+            collection = ${
+                !node.context.inBackend && q(node).parent().property('shuffle') ?
+                Array.shuffle(q(node).children().get()) :
+                q(node).children().get()
+            }
+        }
+        @cache {
+            mode = 'uncached'
+            context {
+                1 = 'node'
+            }
+        }
     }
 
     renderer = KircheCom.SiteGenesis:Component.Organism.StainedGlassWindow {

@@ -5,6 +5,19 @@
             <trans-unit id="ui.label" xml:space="preserve">
                 <source>Buntglasfenster</source>
             </trans-unit>
+            <trans-unit id="groups.stainedGlass" xml:space="preserve">
+                <source>Buntglasfenster</source>
+            </trans-unit>
+            <trans-unit id="properties.shuffle" xml:space="preserve">
+                <source>Automatisch mischen</source>
+            </trans-unit>
+            <trans-unit id="properties.shuffle.ui.help.message" xml:space="preserve">
+                <source>
+Wenn dies aktiviert ist, werden die Inhalte (d.h. die einzelnen Buntglaselemente) automatisch gemischt.
+Bei jedem Aufruf der Seite ist die Reihenfolge also anders.
+Hier im Editor ist die Reihenfolge der Elemente immer gleich, nur auf der fertigen Seite werden die Elemente gemischt.
+                </source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

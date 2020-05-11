@@ -5,6 +5,19 @@
             <trans-unit id="ui.label" xml:space="preserve">
                 <source>Stained Glass Window</source>
             </trans-unit>
+            <trans-unit id="groups.stainedGlass" xml:space="preserve">
+                <source>Stained Glass Window</source>
+            </trans-unit>
+            <trans-unit id="properties.shuffle" xml:space="preserve">
+                <source>Auto Shuffle</source>
+            </trans-unit>
+            <trans-unit id="properties.shuffle.ui.help.message" xml:space="preserve">
+                <source>
+If enabled, the contents of this element (i.e. the stained glass elements) will be shuffled automatically.
+Therefore each time the page is called up, the order of the stained glass elements will be different.
+The elements are only being shuffled on the delivered page. Here in the editor, the order of the elements will remain the same.
+                </source>
+            </trans-unit>
         </body>
     </file>
 </xliff>
