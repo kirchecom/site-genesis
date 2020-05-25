@@ -3,12 +3,7 @@
 
 .kirchecom-metamenu {
     a {
-        color: $gray-900;
         text-decoration: none;
-
-        &:hover {
-            color: $gray-700;
-        }
     }
 
     & + .kirchecom-mainmenu {

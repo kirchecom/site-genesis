@@ -5,14 +5,9 @@
 .kirchecom-mainmenu {
     .navbar-nav {
         a {
-            color: $gray-900;
             display: block;
             padding: .875rem 1rem;
             text-decoration: none;
-
-            &:hover {
-                color: $gray-700;
-            }
         }
 
         .active {
