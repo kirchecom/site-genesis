@@ -31,12 +31,16 @@ Neos:
                 autoInclude:
                     'KircheCom.SiteGenesis': ['General', 'NodeTypes/*']
 Jonnitto:
+    PrettyEmbedHelper:
+        enableGdprMessage: true
     PrettyEmbedYoutube:
         url:
             playlist:
                 embed: 'https://www.youtube-nocookie.com/embed/videoseries?list=%id%'
+                href: 'https://www.youtube-nocookie.com/playlist?list=%id%'
             video:
                 embed: 'https://www.youtube-nocookie.com/embed/%id%'
+                href: 'https://www.youtube-nocookie.com/watch?v=%id%'
 Sitegeist:
     Monocle:
         hiddenPrototypeNamePatterns:

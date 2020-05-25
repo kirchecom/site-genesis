@@ -8,6 +8,12 @@
             <trans-unit id="properties.showText" xml:space="preserve">
                 <source>Text unter dem Video zeigen</source>
             </trans-unit>
+            <trans-unit id="gdprMessage" xml:space="preserve">
+                <source>
+Datenschutzhinweis:
+Das Video wird von YouTube geladen. Dabei kann YouTube nachvollziehen, dass du das Video anschaust. Möchtest du fortfahren?
+                </source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

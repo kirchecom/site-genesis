@@ -17,3 +17,7 @@ prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.YouTube) < prototy
         body.@if.has = ${q(node).property('showText')}
     }
 }
+
+prototype(Jonnitto.PrettyEmbedHelper:GdprMessage) < prototype(Neos.Fusion:Value) {
+    value = ${Translation.translate('KircheCom.SiteGenesis:NodeTypes.Content.Molecule.StainedGlass.YouTube:gdprMessage')}
+}
