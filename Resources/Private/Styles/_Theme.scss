@@ -1,6 +1,11 @@
 $theme-colors: (
-    // Background
-    "kirchecom-color-01": #00163d,
+    // Main colors
+    "kirchecom-color-01": #000e28,
+    "kirchecom-color-02": #6c84fe,
+    "kirchecom-color-03": #f74885,
+    "kirchecom-color-04": #2fcb37,
+    "kirchecom-color-05": #21eac2,
+    "kirchecom-color-06": #ffff00,
 
     // Top left window clockwise
     "kirchecom-color-11": #f14b2b,
@@ -26,11 +31,11 @@ $theme-colors: (
 );
 
 $primary: map-get($theme-colors, "kirchecom-color-01");
-$secondary: map-get($theme-colors, "kirchecom-color-42");
-$success: map-get($theme-colors, "kirchecom-color-43");
-$info: map-get($theme-colors, "kirchecom-color-32");
-$warning: map-get($theme-colors, "kirchecom-color-13");
-$danger: map-get($theme-colors, "kirchecom-color-21");
+$secondary: map-get($theme-colors, "kirchecom-color-01");
+$success: map-get($theme-colors, "kirchecom-color-04");
+$info: map-get($theme-colors, "kirchecom-color-05");
+$warning: map-get($theme-colors, "kirchecom-color-06");
+$danger: map-get($theme-colors, "kirchecom-color-03");
 $dark: map-get($theme-colors, "kirchecom-color-01");
 
 $enable-responsive-font-sizes: true;

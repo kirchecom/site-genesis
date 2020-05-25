@@ -13,7 +13,22 @@
                 <source>strahlend weiß</source>
             </trans-unit>
             <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-01" xml:space="preserve">
-                <source>dunkelblau</source>
+                <source>kirche.com dunkelblau</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-02" xml:space="preserve">
+                <source>kirche.com hellblau</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-03" xml:space="preserve">
+                <source>kirche.com pink</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-04" xml:space="preserve">
+                <source>kirche.com grün</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-05" xml:space="preserve">
+                <source>kirche.com türkis</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-06" xml:space="preserve">
+                <source>kirche.com gelb</source>
             </trans-unit>
             <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-11" xml:space="preserve">
                 <source>rot</source>

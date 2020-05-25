@@ -2,15 +2,6 @@
 
 @each $color, $value in $theme-colors {
     .kirchecom-stainedglass.card.bg-#{$color} {
-        color: color-yiq($value);
-
-        a {
-            color: color-yiq($value) !important;
-        }
-
-        .text-muted {
-            color: color-yiq($value) !important;
-            opacity: .5;
-        }
+        background-color: scale-color($value, $alpha: -85%) !important;
     }
 }

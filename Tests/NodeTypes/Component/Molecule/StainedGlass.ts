@@ -17,7 +17,7 @@ test.page(getUrlFor(PROTOTYPE_NAME, 'Color'))('renders in color', async t => {
         .expect(Selector('.kirchecom-stainedglass').hasClass('bg-kirchecom-color-42'))
         .ok()
         .expect(Selector('.kirchecom-stainedglass').getStyleProperty('background-color'))
-        .eql('rgb(19, 207, 107)')
+        .eql('rgba(19, 207, 107, 0.15)')
 });
 
 test.page(getUrlFor(PROTOTYPE_NAME, 'Image'))('renders with image', async t => {

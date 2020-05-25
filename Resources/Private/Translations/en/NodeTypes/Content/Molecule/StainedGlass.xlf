@@ -13,7 +13,22 @@
                 <source>bright white</source>
             </trans-unit>
             <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-01" xml:space="preserve">
-                <source>dark blue</source>
+                <source>kirche.com dark blue</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-02" xml:space="preserve">
+                <source>kirche.com light blue</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-03" xml:space="preserve">
+                <source>kirche.com pink</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-04" xml:space="preserve">
+                <source>kirche.com green</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-05" xml:space="preserve">
+                <source>kirche.com cyan</source>
+            </trans-unit>
+            <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-06" xml:space="preserve">
+                <source>kirche.com yellow</source>
             </trans-unit>
             <trans-unit id="properties.color.selectBoxEditor.values.kirchecom-color-11" xml:space="preserve">
                 <source>red</source>

@@ -21,8 +21,8 @@ prototype(KircheCom.SiteGenesis:Component.Molecule.StainedGlass) < prototype(Neo
             as well as text content (props.body).
             Also different stained glass colors are available (props.color), please refer to
             _Theme.scss to see the colors available
-            (kirchecom-color-01, -11, -12, -13, -21, -22, -23, -31, -32, -33, -34, -41, -42, -43, -44
-            as well as transparent).
+            (kirchecom-color-01, -02, -03, -04, -05, -06, -11, -12, -13, -21, -22, -23, -31, -32, -33, -34,
+            -41, -42, -43, -44 as well as transparent).
             Several Stained Glass elements can be grouped in a Component.Organism.StainedGlassWindow.
         '
         props {
