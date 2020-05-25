@@ -17,6 +17,6 @@ prototype(KircheCom.SiteGenesis:Content.Organism.StainedGlassWindow) < prototype
     }
 
     renderer = KircheCom.SiteGenesis:Component.Organism.StainedGlassWindow {
-        @apply.props = ${props}
+        parts = ${props.parts}
     }
 }

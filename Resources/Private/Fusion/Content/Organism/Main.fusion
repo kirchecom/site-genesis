@@ -4,6 +4,6 @@ prototype(KircheCom.SiteGenesis:Content.Organism.Main) < prototype(Neos.Neos:Con
     }
 
     renderer = KircheCom.SiteGenesis:Component.Organism.Main {
-        @apply.props = ${props}
+        mainContent = ${props.mainContent}
     }
 }

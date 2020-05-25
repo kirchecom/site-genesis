@@ -19,7 +19,9 @@ prototype(KircheCom.SiteGenesis:Component.Template.Base) < prototype(Neos.Fusion
                 {props.main}
                 {props.footer}
             `
-            @apply.props = ${props}
+            header = ${props.header}
+            main = ${props.main}
+            footer = ${props.footer}
         }
 
         bodyScripts = KircheCom.SiteGenesis:Component.Molecule.Meta.JavaScripts

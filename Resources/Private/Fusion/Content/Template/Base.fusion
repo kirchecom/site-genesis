@@ -1,9 +1,7 @@
 prototype(KircheCom.SiteGenesis:Content.Template.Base) < prototype(Neos.Fusion:Component) {
-    header = KircheCom.SiteGenesis:Content.Organism.Header
-    main = KircheCom.SiteGenesis:Content.Organism.Main
-    footer = KircheCom.SiteGenesis:Content.Organism.Footer
-
     renderer = KircheCom.SiteGenesis:Component.Template.Base {
-        @apply.props = ${props}
+        header = KircheCom.SiteGenesis:Content.Organism.Header
+        main = KircheCom.SiteGenesis:Content.Organism.Main
+        footer = KircheCom.SiteGenesis:Content.Organism.Footer
     }
 }

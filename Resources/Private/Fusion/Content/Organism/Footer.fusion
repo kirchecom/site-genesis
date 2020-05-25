@@ -5,6 +5,6 @@ prototype(KircheCom.SiteGenesis:Content.Organism.Footer) < prototype(Neos.Neos:C
     }
 
     renderer = KircheCom.SiteGenesis:Component.Organism.Footer {
-        @apply.props = ${props}
+        footerContent = ${props.footerContent}
     }
 }

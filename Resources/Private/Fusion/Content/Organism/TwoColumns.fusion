@@ -7,6 +7,7 @@ prototype(KircheCom.SiteGenesis:Content.Organism.TwoColumns) < prototype(Neos.Ne
     }
 
     renderer = KircheCom.SiteGenesis:Component.Organism.TwoColumns {
-        @apply.props = ${props}
+        column1 = ${props.column1}
+        column2 = ${props.column2}
     }
 }

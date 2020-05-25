@@ -5,6 +5,7 @@ prototype(KircheCom.SiteGenesis:Content.Atom.Headline) < prototype(Neos.Neos:Con
     level = ${q(node).property('level')}
 
     renderer = KircheCom.SiteGenesis:Component.Atom.Headline {
-        @apply.props = ${props}
+        text = ${props.text}
+        level = ${props.level}
     }
 }
