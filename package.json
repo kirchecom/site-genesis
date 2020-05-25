@@ -1,6 +1,6 @@
 {
     "name": "@kirchecom/site-genesis",
-    "version": "2.5.0",
+    "version": "3.0.0",
     "description": "Neos site package for kirche.com, version Genesis",
     "repository": {
         "type": "git",
