@@ -2,7 +2,7 @@ prototype(KircheCom.SiteGenesis:Component.Organism.Footer) < prototype(Neos.Fusi
     footerContent = null
 
     renderer = afx`
-        <footer class="container">
+        <footer class="kirchecom-footer container">
             <div class="text-muted border-top pt-4 my-md-5 pt-md-5">
                 {props.footerContent}
             </div>
