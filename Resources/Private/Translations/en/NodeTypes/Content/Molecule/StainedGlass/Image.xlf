@@ -21,6 +21,9 @@ There you can also enter the title (will be rendered as "title" attribute which 
 and the caption (as alternative text for screen readers).
                 </source>
             </trans-unit>
+            <trans-unit id="properties.link" xml:space="preserve">
+                <source>On Click Open Link (optional)</source>
+            </trans-unit>
             <trans-unit id="properties.showText" xml:space="preserve">
                 <source>Show Text below Image</source>
             </trans-unit>

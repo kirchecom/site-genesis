@@ -21,6 +21,9 @@ Hier kannst du auch einen Titel eingeben (wird als "title"-Attribut gerendert un
 sowie eine Beschriftung (wird als alternativer Text für Screenreader hinzugefügt).
                 </source>
             </trans-unit>
+            <trans-unit id="properties.link" xml:space="preserve">
+                <source>Beim Klick auf das Bild öffnen (optional)</source>
+            </trans-unit>
             <trans-unit id="properties.showText" xml:space="preserve">
                 <source>Text unter dem Bild zeigen</source>
             </trans-unit>

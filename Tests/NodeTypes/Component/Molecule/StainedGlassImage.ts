@@ -15,3 +15,11 @@ test.page(getUrlFor(PROTOTYPE_NAME))('has image and all attributes', async t => 
         .expect(Selector('img').hasClass('card-img-top'))
         .ok()
 });
+
+test.page(getUrlFor(PROTOTYPE_NAME, 'With Link'))('renders with link', async t => {
+    await t
+        .expect(Selector('a').getAttribute('href'))
+        .contains('https://kirche.com')
+        .expect(Selector('a').find('img').exists)
+        .ok()
+});

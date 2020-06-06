@@ -12,6 +12,10 @@ prototype(KircheCom.SiteGenesis:Content.Molecule.StainedGlass.Image) < prototype
             }
             alt = ${q(node).property('image').caption}
             title = ${q(node).property('image').title}
+
+            link = ${q(node).property('link')}
+            link.@process.convertUris = Neos.Neos:ConvertUris
+
             copyrightNotice = ${q(node).property('image').copyrightNotice}
             copyrightNotice.@if.has = ${q(node).property('showCopyrightNotice')}
         }
