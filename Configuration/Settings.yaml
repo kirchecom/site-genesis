@@ -16,6 +16,10 @@ Neos:
                         values: ['de']
                         uriSegment: 'de'
     Flow:
+        i18n:
+            defaultLocale: de
+            fallbackRule:
+                order: ['en']
         mvc:
             routes:
                 'Neos.Neos':
@@ -27,6 +31,7 @@ Neos:
                 stainedGlass:
                     label: 'KircheCom.SiteGenesis:General:groups.stainedGlass'
         userInterface:
+            defaultLanguage: de
             translation:
                 autoInclude:
                     'KircheCom.SiteGenesis': ['General', 'NodeTypes/*']
