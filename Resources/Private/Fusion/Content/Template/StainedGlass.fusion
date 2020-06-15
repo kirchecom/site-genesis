@@ -1,0 +1,9 @@
+prototype(KircheCom.SiteGenesis:Content.Template.StainedGlass) < prototype(KircheCom.SiteGenesis:Content.Template.Base) {
+    renderer = KircheCom.SiteGenesis:Component.Template.Base {
+        header = KircheCom.SiteGenesis:Content.Organism.Header
+        main = KircheCom.SiteGenesis:Content.Organism.Main {
+            mainContent = KircheCom.SiteGenesis:Content.Organism.StainedGlassWindow
+        }
+        footer = KircheCom.SiteGenesis:Content.Organism.Footer
+    }
+}
