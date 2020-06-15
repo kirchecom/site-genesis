@@ -1,4 +1,4 @@
-prototype(KircheCom.SiteGenesis:Content.Organism.Main) < prototype(Neos.Neos:ContentComponent) {
+prototype(KircheCom.SiteGenesis:Content.Organism.Main) < prototype(Neos.Fusion:Component) {
     mainContent = Neos.Neos:PrimaryContent {
         nodePath = 'main'
     }

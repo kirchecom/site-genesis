@@ -1,4 +1,4 @@
-prototype(KircheCom.SiteGenesis:Content.Molecule.MetaMenu) < prototype(Neos.Neos:ContentComponent) {
+prototype(KircheCom.SiteGenesis:Content.Molecule.MetaMenu) < prototype(Neos.Fusion:Component) {
     metaItems = Neos.Neos:MenuItems {
         entryLevel = 2
         maximumLevels = 1

@@ -1,4 +1,4 @@
-prototype(KircheCom.SiteGenesis:Content.Molecule.MainMenu) < prototype(Neos.Neos:ContentComponent) {
+prototype(KircheCom.SiteGenesis:Content.Molecule.MainMenu) < prototype(Neos.Fusion:Component) {
     root = ${site}
     menuItems = Neos.Neos:MenuItems
     toggleNavigationLabel = ${Translation.translate('KircheCom.SiteGenesis:NodeTypes.Content.Molecule.MainMenu:toggleNavigation')}

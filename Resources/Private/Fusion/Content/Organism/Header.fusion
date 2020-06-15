@@ -1,4 +1,4 @@
-prototype(KircheCom.SiteGenesis:Content.Organism.Header) < prototype(Neos.Neos:ContentComponent) {
+prototype(KircheCom.SiteGenesis:Content.Organism.Header) < prototype(Neos.Fusion:Component) {
     mainMenu = KircheCom.SiteGenesis:Content.Molecule.MainMenu
     metaMenu = KircheCom.SiteGenesis:Content.Molecule.MetaMenu
 
